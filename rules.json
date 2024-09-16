@@ -1,0 +1,3846 @@
+{
+  "rules": [
+    {
+      "word": ["buy", "purchase", "acquire"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'buy' to 'purchase' or 'acquire'",
+      "page": 13,
+      "replace": ["purchase", "acquire"],
+      "replaceWith": "buy",
+      "replaceMessage": "Consider using 'buy' instead of 'purchase' or 'acquire' for a more direct and simple expression."
+    },
+    {
+      "word": ["let", "permit"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'let' to 'permit'",
+      "page": 13,
+      "replace": "permit",
+      "replaceWith": "let",
+      "replaceMessage": "Consider using 'let' instead of 'permit' for a more concise expression."
+    },
+    {
+      "word": ["about", "approximately"],
+      "partOfSpeech": "ADV",
+      "content": "Prefer 'about' to 'approximately'",
+      "page": 13,
+      "replace": "approximately",
+      "replaceWith": "about",
+      "replaceMessage": "Consider using 'about' instead of 'approximately' for a more concise expression."
+    },
+    {
+      "word": ["enough", "sufficient"],
+      "partOfSpeech": "ADJ",
+      "content": "Prefer 'enough' to 'sufficient'",
+      "page": 13,
+      "replace": "sufficient",
+      "replaceWith": "enough",
+      "replaceMessage": "Consider using 'enough' instead of 'sufficient' for a more straightforward expression."
+    },
+    {
+      "word": ["give", "donate"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'give' to 'donate'",
+      "page": 13,
+      "replace": "donate",
+      "replaceWith": "give",
+      "replaceMessage": "Consider using 'give' instead of 'donate' for a more direct expression."
+    },
+    {
+      "word": ["help", "aid"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'help' to 'aid'",
+      "page": 13,
+      "replace": "aid",
+      "replaceWith": "help",
+      "replaceMessage": "Consider using 'help' instead of 'aid' for a more common and straightforward expression."
+    },
+    {
+      "word": ["get", "obtain"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'get' to 'obtain'",
+      "page": 13,
+      "replace": "obtain",
+      "replaceWith": "get",
+      "replaceMessage": "Consider using 'get' instead of 'obtain' for a more direct and simple expression."
+    },
+    {
+      "word": ["make", "manufacture"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'make' to 'manufacture'",
+      "page": 13,
+      "replace": "manufacture",
+      "replaceWith": "make",
+      "replaceMessage": "Consider using 'make' instead of 'manufacture' for a more general and simple expression."
+    },
+    {
+      "word": ["set up", "establish"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'set up' to 'establish'",
+      "page": 13,
+      "replace": "establish",
+      "replaceWith": "set up",
+      "replaceMessage": "Consider using 'set up' instead of 'establish' for a more informal and direct expression."
+    },
+    {
+      "word": ["show", "demonstrate"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'show' to 'demonstrate'",
+      "page": 13,
+      "replace": "demonstrate",
+      "replaceWith": "show",
+      "replaceMessage": "Consider using 'show' instead of 'demonstrate' for a more straightforward expression."
+    },
+    {
+      "word": ["spending", "expenditure"],
+      "partOfSpeech": "NOUN",
+      "content": "Prefer 'spending' to 'expenditure'",
+      "page": 13,
+      "replace": "expenditure",
+      "replaceWith": "spending",
+      "replaceMessage": "Consider using 'spending' instead of 'expenditure' for a more common and straightforward expression."
+    },
+    {
+      "word": ["give up", "relinquish"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'give up' to 'relinquish'",
+      "page": 13,
+      "replace": "relinquish",
+      "replaceWith": "give up",
+      "replaceMessage": "Consider using 'give up' instead of 'relinquish' for a more common and straightforward expression."
+    },
+    {
+      "word": ["break", "violate"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'break' to 'violate'",
+      "page": 13,
+      "replace": "violate",
+      "replaceWith": "break",
+      "replaceMessage": "Consider using 'break' instead of 'violate' for a more direct and simple expression."
+    },
+    {
+      "word": ["hand out", "distribute"],
+      "partOfSpeech": "VERB",
+      "content": "Prefer 'hand out' to 'distribute'",
+      "page": 13,
+      "replace": "distribute",
+      "replaceWith": "hand out",
+      "replaceMessage": "Consider using 'hand out' instead of 'distribute' for a more informal and direct expression."
+    },
+    {
+      "word": ["gift", "present"],
+      "partOfSpeech": "NOUN",
+      "content": "Prefer 'present' to 'gift'",
+      "page": 13,
+      "replace": "gift",
+      "replaceWith": "present",
+      "replaceMessage": "Consider using 'present' instead of 'gift' as a noun for a more traditional expression."
+    },
+    {
+      "word": ["people", "persons"],
+      "partOfSpeech": "NOUN",
+      "content": "Prefer 'people' to 'persons'",
+      "page": 13,
+      "replace": "persons",
+      "replaceWith": "people",
+      "replaceMessage": "Consider using 'people' instead of 'persons' for a more common and natural expression."
+    },
+    {
+      "word": ["rich", "wealthy"],
+      "partOfSpeech": "ADJ",
+      "content": "Prefer 'rich' to 'wealthy'",
+      "page": 13,
+      "replace": "wealthy",
+      "replaceWith": "rich",
+      "replaceMessage": "Consider using 'rich' instead of 'wealthy' for a more direct and simple expression."
+    },
+    {
+      "word": ["but", "however"],
+      "partOfSpeech": "CCONJ",
+      "content": "Prefer 'but' to 'however'",
+      "page": 13,
+      "replace": "however",
+      "replaceWith": "but",
+      "replaceMessage": "Consider using 'but' instead of 'however' for a more concise expression."
+    },
+    {
+      "word": ["after", "following"],
+      "partOfSpeech": "ADP",
+      "content": "Prefer 'after' to 'following'",
+      "page": 13,
+      "replace": "following",
+      "replaceWith": "after",
+      "replaceMessage": "Consider using 'after' instead of 'following' for a more straightforward expression."
+    },
+    {
+      "word": ["workforce"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'workforce' with 'workers'",
+      "page": 16,
+      "replace": "workforce",
+      "replaceWith": "workers",
+      "replaceMessage": "Consider using 'workers' instead of 'workforce' for a more concrete expression."
+    },
+    {
+      "word": ["compensation"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'compensation' with 'pay'",
+      "page": 16,
+      "replace": "compensation",
+      "replaceWith": "pay",
+      "replaceMessage": "Consider using 'pay' instead of 'compensation' for a more direct and simple expression."
+    },
+    {
+      "word": ["revenue"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'revenue' with 'sales'",
+      "page": 16,
+      "replace": "revenue",
+      "replaceWith": "sales",
+      "replaceMessage": "Consider using 'sales' instead of 'revenue' for a more concrete expression."
+    },
+    {
+      "word": ["high-net-worth individuals"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'high-net-worth individuals' with 'rich people'",
+      "page": 16,
+      "replace": "high-net-worth individuals",
+      "replaceWith": "rich people",
+      "replaceMessage": "Consider using 'rich people' instead of 'high-net-worth individuals' for a more straightforward expression."
+    },
+    {
+      "word": ["inventory"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'inventory' with 'goods, stocks, products on shelves'",
+      "page": 16,
+      "replace": "inventory",
+      "replaceWith": "goods, stocks, products on shelves",
+      "replaceMessage": "Consider using 'goods, stocks, products on shelves' instead of 'inventory' for a more concrete expression."
+    },
+    {
+      "word": ["civil society"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'civil society' with 'ngos (or perhaps community organisations)'",
+      "page": 16,
+      "replace": "civil society",
+      "replaceWith": "ngos (or perhaps community organisations)",
+      "replaceMessage": "Consider using 'ngos (or perhaps community organisations)' instead of 'civil society' for a more specific expression."
+    },
+    {
+      "word": ["conflict"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'conflict' with 'fighting or war'",
+      "page": 16,
+      "replace": "conflict",
+      "replaceWith": "fighting or war",
+      "replaceMessage": "Consider using 'fighting or war' instead of 'conflict' for a more concrete expression."
+    },
+    {
+      "word": ["intelligence community"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'intelligence community' with 'spies'",
+      "page": 16,
+      "replace": "intelligence community",
+      "replaceWith": "spies",
+      "replaceMessage": "Consider using 'spies' instead of 'intelligence community' for a more direct expression."
+    },
+    {
+      "word": ["academic community"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'academic community' with 'scholars'",
+      "page": 16,
+      "replace": "academic community",
+      "replaceWith": "scholars",
+      "replaceMessage": "Consider using 'scholars' instead of 'academic community' for a more specific expression."
+    },
+    {
+      "word": ["international community"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'international community' with anything more accurate",
+      "page": 16,
+      "replace": "international community",
+      "replaceWith": "",
+      "replaceMessage": "Consider replacing 'international community' with a more specific and accurate term."
+    },
+    {
+      "word": ["demonstrates an unwillingness to"],
+      "partOfSpeech": "VERB",
+      "content": "Replace 'demonstrates an unwillingness to' with 'refuses to'",
+      "page": 19,
+      "replace": "demonstrates an unwillingness to",
+      "replaceWith": "refuses to",
+      "replaceMessage": "Consider using 'refuses to' instead of 'demonstrates an unwillingness to' for a more concise expression."
+    },
+    {
+      "word": ["manifests avoidance behaviour"],
+      "partOfSpeech": "VERB",
+      "content": "Replace 'manifests avoidance behaviour' with 'avoids'",
+      "page": 19,
+      "replace": "manifests avoidance behaviour",
+      "replaceWith": "avoids",
+      "replaceMessage": "Consider using 'avoids' instead of 'manifests avoidance behaviour' for a more direct expression."
+    },
+    {
+      "word": ["the proliferation of abstractions exhibits a deadening tendency upon writing"],
+      "partOfSpeech": "VERB",
+      "content": "Replace 'the proliferation of abstractions exhibits a deadening tendency upon writing' with 'empty words deaden writing'",
+      "page": 19,
+      "replace": "the proliferation of abstractions exhibits a deadening tendency upon writing",
+      "replaceWith": "empty words deaden writing",
+      "replaceMessage": "Consider using 'empty words deaden writing' instead of 'the proliferation of abstractions exhibits a deadening tendency upon writing' for a more concise and clear expression."
+    },
+    {
+      "word": ["homelessness"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'homelessness' with 'people sleeping rough'",
+      "page": 19,
+      "replace": "homelessness",
+      "replaceWith": "people sleeping rough",
+      "replaceMessage": "Consider using 'people sleeping rough' instead of 'homelessness' for a more concrete expression."
+    },
+    {
+      "word": ["human-rights abuses"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'human-rights abuses' with 'torture, murder, massacres, etc'",
+      "page": 19,
+      "replace": "human-rights abuses",
+      "replaceWith": "torture, murder, massacres, etc",
+      "replaceMessage": "Consider using specific terms like 'torture, murder, massacres, etc' instead of 'human-rights abuses' for a more concrete expression."
+    },
+    {
+      "word": ["civilian casualties", "collateral damage"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'civilian casualties' or 'collateral damage' with 'dead civilians'",
+      "page": 19,
+      "replace": ["civilian casualties", "collateral damage"],
+      "replaceWith": "dead civilians",
+      "replaceMessage": "Consider using 'dead civilians' instead of 'civilian casualties' or 'collateral damage' for a more direct and honest expression."
+    },
+    {
+      "word": ["mortality"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'mortality' with 'death'",
+      "page": 19,
+      "replace": "mortality",
+      "replaceWith": "death",
+      "replaceMessage": "Consider using 'death' instead of 'mortality' for a more direct expression."
+    },
+    {
+      "word": ["voting irregularities"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'voting irregularities' with 'vote-rigging'",
+      "page": 19,
+      "replace": "voting irregularities",
+      "replaceWith": "vote-rigging",
+      "replaceMessage": "Consider using 'vote-rigging' instead of 'voting irregularities' for a more direct expression."
+    },
+    {
+      "word": ["redundancies"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'redundancies' with 'lay-offs'",
+      "page": 19,
+      "replace": "redundancies",
+      "replaceWith": "lay-offs",
+      "replaceMessage": "Consider using 'lay-offs' instead of 'redundancies' for a more direct expression."
+    },
+    {
+      "word": ["underprivileged"],
+      "partOfSpeech": "ADJ",
+      "content": "Replace 'the underprivileged' with 'poor people, people struggling to pay the bills, etc'",
+      "page": 19,
+      "replace": "the underprivileged",
+      "replaceWith": "poor people, people struggling to pay the bills",
+      "replaceMessage": "Consider using specific phrases like 'poor people' or 'people struggling to pay the bills' instead of 'the underprivileged' for a more concrete expression."
+    },
+    {
+      "word": ["sexual assault"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'sexual assault' with 'rape, groping, etc'",
+      "page": 19,
+      "replace": "sexual assault",
+      "replaceWith": "rape, groping",
+      "replaceMessage": "Consider using specific terms like 'rape' or 'groping' instead of 'sexual assault' for a more direct expression."
+    },
+    {
+      "word": ["kinetic action"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'kinetic action' with 'battle'",
+      "page": 19,
+      "replace": "kinetic action",
+      "replaceWith": "battle",
+      "replaceMessage": "Consider using 'battle' instead of 'kinetic action' for a more straightforward expression."
+    },
+    {
+      "word": ["summits"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'summits' with 'meetings and conferences'",
+      "page": 20,
+      "replace": "summits",
+      "replaceWith": "meetings and conferences",
+      "replaceMessage": "Consider using 'meetings and conferences' instead of 'summits' for a more straightforward expression."
+    },
+    {
+      "word": ["granular"],
+      "partOfSpeech": "ADJ",
+      "content": "Replace 'granular' with 'detailed'",
+      "page": 20,
+      "replace": "granular",
+      "replaceWith": "detailed",
+      "replaceMessage": "Consider using 'detailed' instead of 'granular' for a more common and clear expression."
+    },
+    {
+      "word": ["ideation"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'ideation' with 'brainstorming'",
+      "page": 20,
+      "replace": "ideation",
+      "replaceWith": "brainstorming",
+      "replaceMessage": "Consider using 'brainstorming' instead of 'ideation' for a more common and clear expression."
+    },
+    {
+      "word": ["learnings"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'learnings' with 'lessons'",
+      "page": 20,
+      "replace": "learnings",
+      "replaceWith": "lessons",
+      "replaceMessage": "Consider using 'lessons' instead of 'learnings' for a more standard expression."
+    },
+    {
+      "word": ["optics"],
+      "partOfSpeech": "NOUN",
+      "content": "Replace 'optics' with 'appearances'",
+      "page": 20,
+      "replace": "optics",
+      "replaceWith": "appearances",
+      "replaceMessage": "Consider using 'appearances' instead of 'optics' for a more straightforward expression."
+    },
+    {
+      "word": ["impact"],
+      "partOfSpeech": "VERB",
+      "content": "Replace 'to impact' with 'to have an impact on'",
+      "page": 21,
+      "replace": "to impact",
+      "replaceWith": "to have an impact on",
+      "replaceMessage": "Consider using 'to have an impact on' instead of 'to impact' for a more precise expression."
+    },
+    {
+      "word": ["access"],
+      "partOfSpeech": "VERB",
+      "content": "Replace 'to access' with 'to gain access to'",
+      "page": 21,
+      "replace": "to access",
+      "replaceWith": "to gain access to",
+      "replaceMessage": "Consider using 'to gain access to' instead of 'to access' for a more precise expression."
+    },
+    {
+      "word": ["showcase"],
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'to showcase'",
+      "page": 21,
+      "replace": "to showcase",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'to showcase' as a verb."
+    },
+    {
+      "word": ["source"],
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'to source'",
+      "page": 21,
+      "replace": "to source",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'to source' as a verb."
+    },
+    {
+      "word": ["segue"],
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'to segue'",
+      "page": 21,
+      "replace": "to segue",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'to segue' as a verb."
+    },
+    {
+      "word": ["target"],
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'to target'",
+      "page": 21,
+      "replace": "to target",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'to target' as a verb."
+    },
+    {
+      "word": ["action"],
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'to action'",
+      "page": 21,
+      "replace": "to action",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'to action' as a verb."
+    },
+    {
+      "word": ["gift"],
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'to gift'",
+      "page": 21,
+      "replace": "to gift",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'to gift' as a verb."
+    },
+    {
+      "word": ["interface"],
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'to interface'",
+      "page": 21,
+      "replace": "to interface",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'to interface' as a verb."
+    },
+    {
+      "word": ["whiteboard"],
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'to whiteboard'",
+      "page": 21,
+      "replace": "to whiteboard",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'to whiteboard' as a verb."
+    },
+    {
+      "word": ["synergy"],
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'synergy'",
+      "page": 21,
+      "replace": "synergy",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'synergy', which can be vague or jargon."
+    },
+    {
+      "word": ["issue"],
+      "partOfSpeech": "NOUN",
+      "content": "Be specific when using 'issue'",
+      "page": 21,
+      "replace": "issue",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific term instead of 'issue' to clearly describe the problem or situation."
+    },
+    {
+      "word": ["cyclical downturn"],
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'cyclical downturn'",
+      "page": 21,
+      "replace": "cyclical downturn",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more straightforward term to describe the economic situation instead of 'cyclical downturn'."
+    },
+    {
+      "word": ["secular downturn"],
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'secular downturn'",
+      "page": 21,
+      "replace": "secular downturn",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more straightforward term to describe the economic situation instead of 'secular downturn'."
+    },
+    {
+      "word": ["reallocation of resources"],
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'reallocation of resources'",
+      "page": 21,
+      "replace": "reallocation of resources",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more direct term to describe the action instead of 'reallocation of resources'."
+    },
+    {
+      "word": ["refocusing"],
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'refocusing'",
+      "page": 21,
+      "replace": "refocusing",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific term to describe the action instead of 'refocusing'."
+    },
+    {
+      "word": ["downsizing"],
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'downsizing'",
+      "page": 21,
+      "replace": "downsizing",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more direct term like 'job cuts' or 'layoffs' instead of 'downsizing'."
+    },
+    {
+      "word": ["rightsizing"],
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'rightsizing'",
+      "page": 21,
+      "replace": "rightsizing",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more direct term to describe the action instead of 'rightsizing'."
+    },
+    {
+      "content": "Teach specialist terms to the reader. Before using jargon, make sure to identify the terms you will re-use often enough. Using familiar concepts is often most effective. When you will not be re-using terms frequently, rephrasing is your best strategy.",
+      "page": 21,
+      "jargonDetection": true,
+      "message": "Consider explaining this specialist term or using a more familiar concept if it won't be reused frequently."
+    },
+    {
+      "content": "Avoid using acronyms and initialisms. Instead, consider short forms and synonyms.",
+      "page": 22,
+      "acronymDetection": true,
+      "message": "Consider using the full form or a synonym instead of this acronym or initialism."
+    },
+    {
+      "word": "address",
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'address' as a transitive verb",
+      "page": 22,
+      "replace": "address",
+      "replaceWith": "deal with, attend to",
+      "replaceMessage": "Consider using 'deal with' or 'attend to' instead of 'address' as a transitive verb."
+    },
+    {
+      "word": "aspirational",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'aspirational'",
+      "page": 22,
+      "replace": "aspirational",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'aspirational', which can be vague or overused."
+    },
+    {
+      "word": "facilitate",
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'facilitate'",
+      "page": 22,
+      "replace": "facilitate",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific verb instead of 'facilitate'."
+    },
+    {
+      "word": "famously",
+      "partOfSpeech": "ADV",
+      "content": "Avoid using 'famously' (if it's famous, do you need to say so?)",
+      "page": 22,
+      "replace": "famously",
+      "replaceWith": "",
+      "replaceMessage": "Consider removing 'famously' if the fact is indeed well-known."
+    },
+    {
+      "word": "high-profile",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'high-profile'",
+      "page": 22,
+      "replace": "high-profile",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific description instead of 'high-profile'."
+    },
+    {
+      "word": "iconic",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'iconic'",
+      "page": 22,
+      "replace": "iconic",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific or less overused adjective instead of 'iconic'."
+    },
+    {
+      "word": "individual",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'individual' as a synonym for person, unless there is no alternative",
+      "page": 22,
+      "replace": "individual",
+      "replaceWith": "person",
+      "replaceMessage": "Consider using 'person' instead of 'individual' unless there's a specific reason to use 'individual'."
+    },
+    {
+      "word": "inform",
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'inform' as a pretentious verb meaning to influence",
+      "page": 22,
+      "replace": "inform",
+      "replaceWith": "influence",
+      "replaceMessage": "Consider using 'influence' or a more specific verb instead of 'inform' in this context."
+    },
+    {
+      "word": "implode",
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'implode' (since nature abhors a vacuum, few things actually implode)",
+      "page": 22,
+      "replace": "implode",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more accurate verb instead of 'implode', as few things actually implode."
+    },
+    {
+      "word": "key",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'key' as an adjective, especially 'key players', and do not say 'this decision is key'",
+      "page": 22,
+      "replace": "key",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific adjective instead of 'key', or rephrase the sentence to avoid using it as an adjective."
+    },
+    {
+      "word": "major",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'major'. Try cutting it and seeing if context does the job instead.",
+      "page": 22,
+      "replace": "major",
+      "replaceWith": "",
+      "replaceMessage": "Consider removing 'major' if the context already implies importance."
+    },
+    {
+      "word": "move",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'move' as a synonym for decision, policy or change",
+      "page": 22,
+      "replace": "move",
+      "replaceWith": "decision, policy, change",
+      "replaceMessage": "Consider using 'decision', 'policy', or 'change' instead of 'move' for more clarity."
+    },
+    {
+      "word": "narrative",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'narrative'",
+      "page": 22,
+      "replace": "narrative",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific term instead of 'narrative', which can be vague or overused."
+    },
+    {
+      "word": "paradigm",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'paradigm'",
+      "page": 22,
+      "replace": "paradigm",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific or less jargony term instead of 'paradigm'."
+    },
+    {
+      "word": ["participate", "in"],
+      "partOfSpeech": ["VERB", "ADP"],
+      "content": "Avoid using 'participate in'",
+      "page": 22,
+      "replace": "participate in",
+      "replaceWith": "take part in",
+      "replaceMessage": "Consider using 'take part in' instead of 'participate in' for a more straightforward expression."
+    },
+    {
+      "word": "passionate",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'passionate'",
+      "page": 22,
+      "replace": "passionate",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific or less overused adjective instead of 'passionate'."
+    },
+    {
+      "word": "proactive",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'proactive'",
+      "page": 22,
+      "replace": "proactive",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific description instead of 'proactive'."
+    },
+    {
+      "word": "players",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'players' unless in sports and games",
+      "page": 22,
+      "replace": "players",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific term instead of 'players' in non-sports contexts."
+    },
+    {
+      "word": "prestigious",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'prestigious' (this means the author likes it)",
+      "page": 22,
+      "replace": "prestigious",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more objective description instead of 'prestigious'."
+    },
+    {
+      "word": "reputational",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'reputational'",
+      "page": 22,
+      "replace": "reputational",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid using 'reputational', which can be vague or jargony."
+    },
+    {
+      "word": "savvy",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'savvy'",
+      "page": 22,
+      "replace": "savvy",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more formal or specific term instead of 'savvy'."
+    },
+    {
+      "word": "segue",
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'segue'",
+      "page": 22,
+      "replace": "segue",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more common term like 'transition' or 'move on to' instead of 'segue'."
+    },
+    {
+      "word": "showcase",
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'showcase' as a verb",
+      "page": 22,
+      "replace": "showcase",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific verb instead of 'showcase'."
+    },
+    {
+      "word": "source",
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'source' as a verb",
+      "page": 22,
+      "replace": "source",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific verb instead of 'source'."
+    },
+    {
+      "word": "spikes",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'spikes' (many rises so described turn out to have no descents)",
+      "page": 22,
+      "replace": "spikes",
+      "replaceWith": "increases",
+      "replaceMessage": "Consider using 'increases' or a more specific term instead of 'spikes'."
+    },
+    {
+      "word": "stakeholders",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'stakeholders'",
+      "page": 22,
+      "replace": "stakeholders",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific term to describe the groups or individuals involved."
+    },
+    {
+      "word": "supportive",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'supportive'",
+      "page": 22,
+      "replace": "supportive",
+      "replaceWith": "helpful",
+      "replaceMessage": "Consider using 'helpful' instead of 'supportive' for a more straightforward expression."
+    },
+    {
+      "word": "surreal",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'surreal'",
+      "page": 22,
+      "replace": "surreal",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific description instead of 'surreal'."
+    },
+    {
+      "word": "trajectory",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'trajectory' (long word for course or path)",
+      "page": 22,
+      "replace": "trajectory",
+      "replaceWith": "course, path",
+      "replaceMessage": "Consider using 'course' or 'path' instead of 'trajectory' for a more straightforward expression."
+    },
+    {
+      "word": "transformative",
+      "partOfSpeech": "ADJ",
+      "content": "Avoid using 'transformative'",
+      "page": 22,
+      "replace": "transformative",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific description instead of 'transformative'."
+    },
+    {
+      "word": "trigger",
+      "partOfSpeech": "VERB",
+      "content": "Avoid using 'trigger' as a verb. Try cause, lead to, result in, etc.",
+      "page": 22,
+      "replace": "trigger",
+      "replaceWith": "cause, lead to, result in",
+      "replaceMessage": "Consider using 'cause', 'lead to', or 'result in' instead of 'trigger' for a more precise expression."
+    },
+    {
+      "word": "vision",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'vision'",
+      "page": 22,
+      "replace": "vision",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific term instead of 'vision', which can be vague or overused."
+    },
+    {
+      "word": "wannabes",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid using 'wannabes'",
+      "page": 22,
+      "replace": "wannabes",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more formal or specific term instead of 'wannabes'."
+    },
+    {
+      "content": "Use fresh, vivid metaphors. Fresh imagery is effective because it gives the reader two ways to process what you are saying: one logical and linguistic, and another visual.",
+      "page": 26,
+      "message": "Consider using fresh, vivid metaphors to enhance your writing, but avoid overused phrases."
+    },
+    {
+      "word": "accident waiting to happen",
+      "content": "Avoid the cliché 'accident waiting to happen'",
+      "page": 26,
+      "replace": "accident waiting to happen",
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing with a more original expression to describe an impending problem."
+    },
+    {
+      "word": "chattering classes",
+      "content": "Avoid the cliché 'chattering classes'",
+      "page": 26,
+      "replace": "chattering classes",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific or less clichéd term to describe this group."
+    },
+    {
+      "word": "deer in the headlights",
+      "content": "Avoid the cliché 'deer in the headlights'",
+      "page": 26,
+      "replace": "deer in the headlights",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original metaphor to describe a stunned or frozen reaction."
+    },
+    {
+      "word": "eye-watering sums",
+      "content": "Avoid the cliché 'eye-watering sums'",
+      "page": 26,
+      "replace": "eye-watering sums",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific or original way to describe very large amounts of money."
+    },
+    {
+      "word": "fit for purpose",
+      "content": "Avoid the cliché 'fit for purpose'",
+      "page": 26,
+      "replace": "fit for purpose",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific or original way to describe suitability or adequacy."
+    },
+    {
+      "word": "game-changer",
+      "content": "Avoid the cliché 'game-changer'",
+      "page": 26,
+      "replace": "game-changer",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more specific or original way to describe a significant development or innovation."
+    },
+    {
+      "word": "going forward",
+      "content": "Avoid the cliché 'going forward' (in the sense of in future)",
+      "page": 26,
+      "replace": "going forward",
+      "replaceWith": "in the future",
+      "replaceMessage": "Consider using 'in the future' or a more specific timeframe instead of 'going forward'."
+    },
+    {
+      "word": "the green light",
+      "content": "Avoid the cliché 'the green light'",
+      "page": 26,
+      "replace": "the green light",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to express approval or permission to proceed."
+    },
+    {
+      "word": "grinding to a halt",
+      "content": "Avoid the cliché 'grinding to a halt'",
+      "page": 26,
+      "replace": "grinding to a halt",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe something slowly coming to a stop."
+    },
+    {
+      "word": "heavy lifting",
+      "content": "Avoid the cliché 'heavy lifting'",
+      "page": 26,
+      "replace": "heavy lifting",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe difficult or demanding work."
+    },
+    {
+      "word": "honeymoon period",
+      "content": "Avoid the cliché 'honeymoon period'",
+      "page": 26,
+      "replace": "honeymoon period",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe an initial period of good feelings or success."
+    },
+    {
+      "word": "level playing-field",
+      "content": "Avoid the cliché 'level playing-field'",
+      "page": 26,
+      "replace": "level playing-field",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe fair and equal conditions."
+    },
+    {
+      "word": "paradigm shift",
+      "content": "Avoid the cliché 'paradigm shift'",
+      "page": 26,
+      "replace": "paradigm shift",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe a fundamental change in approach or underlying assumptions."
+    },
+    {
+      "word": "perfect storm",
+      "content": "Avoid the cliché 'perfect storm'",
+      "page": 26,
+      "replace": "perfect storm",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe a combination of events or circumstances creating a bad situation."
+    },
+    {
+      "word": "poster child",
+      "content": "Avoid the cliché 'poster child'",
+      "page": 26,
+      "replace": "poster child",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe a typical example or representation of something."
+    },
+    {
+      "word": "pulling teeth",
+      "content": "Avoid the cliché 'pulling teeth'",
+      "page": 26,
+      "replace": "pulling teeth",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe a difficult or tedious task."
+    },
+    {
+      "word": "rack up",
+      "content": "Avoid the cliché 'rack up' (profits, etc)",
+      "page": 26,
+      "replace": "rack up",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe accumulating or achieving something."
+    },
+    {
+      "word": "ramping up",
+      "content": "Avoid the cliché 'ramping up'",
+      "page": 26,
+      "replace": "ramping up",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe increasing or intensifying something."
+    },
+    {
+      "word": "tipping point",
+      "content": "Avoid the cliché 'tipping point'",
+      "page": 26,
+      "replace": "tipping point",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe a critical point of change."
+    },
+    {
+      "word": "too close to call",
+      "content": "Avoid the cliché 'too close to call'",
+      "page": 26,
+      "replace": "too close to call",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe a situation where the outcome is uncertain."
+    },
+    {
+      "word": "wake-up call",
+      "content": "Avoid the cliché 'wake-up call'",
+      "page": 26,
+      "replace": "wake-up call",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe a warning or realization that prompts change."
+    },
+    {
+      "word": "whopping bills",
+      "content": "Avoid the cliché 'whopping bills'",
+      "page": 26,
+      "replace": "whopping bills",
+      "replaceWith": "",
+      "replaceMessage": "Consider using a more original way to describe very large bills or expenses."
+    },
+    {
+      "content": "Metaphors require care. Think thoroughly about the metaphor you are using, explain differences between the metaphor and the reality, and use metaphors only where necessary. You could, for example, build up a metaphor through a whole piece of writing or refer to it regularly but don't overdo it.",
+      "page": 29,
+      "message": "Use metaphors carefully and sparingly. Ensure they are relevant and add value to your writing."
+    },
+    {
+      "word": "crescendo",
+      "content": "A crescendo in music is a passage of increasing volume (it means 'growing' in Italian), not the point of peak volume.",
+      "page": 30,
+      "message": "Ensure 'crescendo' is used correctly to mean a gradual increase, not a peak or climax."
+    },
+    {
+      "word": "epicentre",
+      "content": "An epicentre is not the heart of an earthquake, but the spot on the Earth's surface above it (from epi-, Greek for 'upon').",
+      "page": 31,
+      "message": "Use 'epicentre' correctly to refer to the point on the Earth's surface directly above the focus of an earthquake, not as a synonym for 'centre'."
+    },
+    {
+      "word": "eye of the storm",
+      "content": "A hurricane is calm, not most intense, at the eye of the storm.",
+      "page": 31,
+      "message": "Use 'eye of the storm' correctly to refer to the calm center of a hurricane, not the most intense part."
+    },
+    {
+      "word": "calculus",
+      "content": "Calculus deals with limits, and differentiation and integration of functions; for example, how position, velocity and acceleration are related. For those who know it, it is not just a fancy synonym for calculation, political or otherwise.",
+      "page": 31,
+      "message": "Use 'calculus' only in its mathematical sense, not as a synonym for 'calculation' or 'consideration'."
+    },
+    {
+      "word": "quantum leap",
+      "content": "Quantum leap: not a big one. The idiom arises from physics, where the quanta involved are fixed multiples of a minuscule amount of energy. Use to describe a sudden change without intermediate stages, not a vast leap.",
+      "page": 31,
+      "message": "Use 'quantum leap' to describe a sudden, significant change, not necessarily a large one."
+    },
+    {
+      "word": "begging the question",
+      "content": "Begging the question: this phrase originated in classical philosophy, meaning to try to smuggle the conclusion you are trying to argue into an assumption. If someone says Illegal immigrants must be deported because they have broken the law, they are presupposing (or avoiding arguing) that the law is just or wise, and so begging the question. But if you merely mean that something raises or prompts the question, say that.",
+      "page": 31,
+      "message": "Use 'begging the question' only for circular reasoning, not as a synonym for 'raising the question'."
+    },
+    {
+      "word": "parsing",
+      "content": "In grammar, this means noting the details of function and form of the words in a sentence. Avoid using it as a fancy synonym for examining.",
+      "page": 31,
+      "message": "Use 'parsing' only in its grammatical sense, not as a synonym for 'examining' or 'analyzing'."
+    },
+    {
+      "word": "exponential growth",
+      "content": "Not just any rapid growth, but the kind implied by 2¹, 2², 2³, 2⁴, 2⁵, 2⁶, or 2, 4, 8, 16, 32, 64.",
+      "page": 31,
+      "message": "Use 'exponential growth' only for growth where the rate of growth is proportional to the current value, not just for any rapid growth."
+    },
+    {
+      "word": "inflection point",
+      "content": "Borrowed from calculus to describe a point where a curve's concavity changes. This should not be used to indicate a mere change in direction.",
+      "page": 31,
+      "message": "Use 'inflection point' only for a significant change in direction or character, not just any turning point."
+    },
+    {
+      "word": "marginal",
+      "content": "Poor-quality land at the edge of a field brought into cultivation is marginal. The cost of producing just one more widget in your factory is the marginal cost of production. The decreasing level of happiness you gain from making progressively more money is diminishing marginal utility. These are interesting and precise uses of marginal. As a synonym for slight or small, it is of marginal usefulness.",
+      "page": 32,
+      "message": "Use 'marginal' in its precise economic or agricultural sense, not as a general synonym for 'small' or 'slight'."
+    },
+    {
+      "content": "Use synonyms where they enhance your writing, not where they distract",
+      "page": 32,
+      "message": "Use synonyms judiciously to enhance your writing, not for the sake of variety alone."
+    },
+    {
+      "content": "Use initialism occasionally. Especially if the initialism is not well known use more transparent phrasings.",
+      "page": 32,
+      "message": "Use initialisms sparingly, especially if they're not well-known. Opt for clearer phrasing when possible."
+    },
+    {
+      "content": "Space is at a premium. Where you can, remove words that do not add to the meaning of a sentence. For example when implied by context.",
+      "page": 33,
+      "message": "Aim for concise writing. Remove words that don't add meaning, especially when the context already implies them."
+    },
+    {
+      "word": ["now", "currently", "at present", "ongoing", "today"],
+      "content": "These words are suggested by present tense, use them when contrasting with another time.",
+      "page": 33,
+      "replace": ["now", "currently", "at present", "ongoing", "today"],
+      "replaceWith": "",
+      "replaceMessage": "Consider removing this word if the present tense already implies it. Use only when contrasting with another time."
+    },
+    {
+      "word": "real",
+      "content": "Avoid using 'real' unless you mean inflation",
+      "page": 33,
+      "replace": "real",
+      "replaceWith": "",
+      "replaceMessage": "Consider removing 'real' unless you're specifically referring to inflation-adjusted values."
+    },
+    {
+      "word": ["there is", "there are"],
+      "content": "Avoid using 'there is' or 'there are' when possible",
+      "page": 33,
+      "replace": ["there is", "there are"],
+      "replaceWith": "",
+      "replaceMessage": "Consider rephrasing to avoid 'there is' or 'there are' for more direct and concise writing."
+    },
+    {
+      "word": ["has the ability to", "the skills to"],
+      "content": "Replace 'has the ability to' or 'the skills to' with 'can'",
+      "page": 33,
+      "replace": ["has the ability to", "the skills to"],
+      "replaceWith": "can",
+      "replaceMessage": "Consider using 'can' instead of 'has the ability to' or 'the skills to' for more concise writing."
+    },
+    {
+      "word": "absolute certainty",
+      "content": "Replace 'absolute certainty' with 'certainty'",
+      "page": 33,
+      "replace": "absolute certainty",
+      "replaceWith": "certainty",
+      "replaceMessage": "Consider using 'certainty' instead of 'absolute certainty' for more concise writing."
+    },
+    {
+      "word": "pilotless drone",
+      "content": "Replace 'pilotless drone' with 'drone'",
+      "page": 33,
+      "replace": "pilotless drone",
+      "replaceWith": "drone",
+      "replaceMessage": "Use 'drone' instead of 'pilotless drone' as 'drone' already implies it's pilotless."
+    },
+    {
+      "word": "razed to the ground",
+      "content": "Replace 'razed to the ground' with 'razed'",
+      "page": 33,
+      "replace": "razed to the ground",
+      "replaceWith": "razed",
+      "replaceMessage": "Use 'razed' instead of 'razed to the ground' as 'razed' already implies complete destruction."
+    },
+    {
+      "word": "track record",
+      "content": "Replace 'track record' with 'record'",
+      "page": 33,
+      "replace": "track record",
+      "replaceWith": "record",
+      "replaceMessage": "Consider using 'record' instead of 'track record' for more concise writing."
+    },
+    {
+      "word": "wilderness area",
+      "content": "Replace 'wilderness area' with 'wilderness'",
+      "page": 33,
+      "replace": "wilderness area",
+      "replaceWith": "wilderness",
+      "replaceMessage": "Use 'wilderness' instead of 'wilderness area' for more concise writing."
+    },
+    {
+      "word": "policymaking process",
+      "content": "Replace 'policymaking process' with 'policymaking'",
+      "page": 33,
+      "replace": "policymaking process",
+      "replaceWith": "policymaking",
+      "replaceMessage": "Consider using 'policymaking' instead of 'policymaking process' for more concise writing."
+    },
+    {
+      "word": "large-scale",
+      "content": "Replace 'large-scale' with 'large' or just 'big'",
+      "page": 33,
+      "replace": "large-scale",
+      "replaceWith": ["large", "big"],
+      "replaceMessage": "Consider using 'large' or 'big' instead of 'large-scale' for more concise writing."
+    },
+    {
+      "word": "weather conditions",
+      "content": "Replace 'weather conditions' with 'weather'",
+      "page": 33,
+      "replace": "weather conditions",
+      "replaceWith": "weather",
+      "replaceMessage": "Use 'weather' instead of 'weather conditions' for more concise writing."
+    },
+    {
+      "word": "bought up",
+      "content": "Replace 'bought up' with 'bought'",
+      "page": 33,
+      "replace": "bought up",
+      "replaceWith": "bought",
+      "replaceMessage": "Use 'bought' instead of 'bought up' for more concise writing."
+    },
+    {
+      "word": "sold off",
+      "content": "Replace 'sold off' with 'sold'",
+      "page": 33,
+      "replace": "sold off",
+      "replaceWith": "sold",
+      "replaceMessage": "Use 'sold' instead of 'sold off' for more concise writing."
+    },
+    {
+      "word": "headed up by",
+      "content": "Replace 'headed up by' with 'headed by'",
+      "page": 33,
+      "replace": "headed up by",
+      "replaceWith": "headed by",
+      "replaceMessage": "Use 'headed by' instead of 'headed up by' for more concise writing."
+    },
+    {
+      "word": "cut back",
+      "content": "Replace 'cut back' with 'cut'",
+      "page": 33,
+      "replace": "cut back",
+      "replaceWith": "cut",
+      "replaceMessage": "Consider using 'cut' instead of 'cut back' for more concise writing."
+    },
+    {
+      "word": "cutbacks",
+      "content": "Replace 'cutbacks' with 'cuts'",
+      "page": 33,
+      "replace": "cutbacks",
+      "replaceWith": "cuts",
+      "replaceMessage": "Consider using 'cuts' instead of 'cutbacks' for more concise writing."
+    },
+    {
+      "word": "end result",
+      "content": "Replace 'end result' with 'result'",
+      "page": 33,
+      "replace": "end result",
+      "replaceWith": "result",
+      "replaceMessage": "Use 'result' instead of 'end result' for more concise writing."
+    },
+    {
+      "word": "for free",
+      "content": "Replace 'for free' with 'free'",
+      "page": 33,
+      "replace": "for free",
+      "replaceWith": "free",
+      "replaceMessage": "Use 'free' instead of 'for free' for more concise writing."
+    },
+    {
+      "word": "from whence",
+      "content": "Replace 'from whence' with 'whence'",
+      "page": 33,
+      "replace": "from whence",
+      "replaceWith": "whence",
+      "replaceMessage": "Use 'whence' instead of 'from whence' as 'whence' already implies 'from where'."
+    },
+    {
+      "word": "final outcome",
+      "content": "Replace 'final outcome' with 'outcome'",
+      "page": 33,
+      "replace": "final outcome",
+      "replaceWith": "outcome",
+      "replaceMessage": "Use 'outcome' instead of 'final outcome' for more concise writing."
+    },
+    {
+      "word": "nod your head",
+      "content": "Replace 'nod your head' with 'nod'",
+      "page": 33,
+      "replace": "nod your head",
+      "replaceWith": "nod",
+      "replaceMessage": "Use 'nod' instead of 'nod your head' as nodding always involves the head."
+    },
+    {
+      "word": "shrug your shoulders",
+      "content": "Replace 'shrug your shoulders' with 'shrug'",
+      "page": 33,
+      "replace": "shrug your shoulders",
+      "replaceWith": "shrug",
+      "replaceMessage": "Use 'shrug' instead of 'shrug your shoulders' as shrugging always involves the shoulders."
+    },
+    {
+      "word": "top priority",
+      "content": "Replace 'top priority' with 'priority'",
+      "page": 33,
+      "replace": "top priority",
+      "replaceWith": "priority",
+      "replaceMessage": "Consider using 'priority' instead of 'top priority' for more concise writing."
+    },
+    {
+      "content": "Use either quotation marks or so-called, not both",
+      "page": 33,
+      "message": "Avoid using both quotation marks and 'so-called' together. Choose one or the other."
+    },
+    {
+      "word": "major speech",
+      "content": "Replace 'major speech' with 'speech'",
+      "page": 33,
+      "replace": "major speech",
+      "replaceWith": "speech",
+      "replaceMessage": "Consider using 'speech' instead of 'major speech' unless the importance needs to be emphasized."
+    },
+    {
+      "word": "role model",
+      "content": "Replace 'role model' with 'model'",
+      "page": 33,
+      "replace": "role model",
+      "replaceWith": "model",
+      "replaceMessage": "Consider using 'model' instead of 'role model' for more concise writing."
+    },
+    {
+      "word": ["past experience", "lived experience", "personal experience"],
+      "content": "Replace 'past experience', 'lived experience', or 'personal experience' with 'experience'",
+      "page": 33,
+      "replace": ["past experience", "lived experience", "personal experience"],
+      "replaceWith": "experience",
+      "replaceMessage": "Consider using 'experience' instead of 'past experience', 'lived experience', or 'personal experience' for more concise writing."
+    },
+    {
+      "word": "empirical research",
+      "content": "Replace 'empirical research' with 'research' or 'a study'",
+      "page": 33,
+      "replace": "empirical research",
+      "replaceWith": ["research", "study"],
+      "replaceMessage": "Consider using 'research' or 'study' instead of 'empirical research' for more concise writing."
+    },
+    {
+      "word": "safe haven",
+      "content": "Replace 'safe haven' with 'haven'",
+      "page": 33,
+      "replace": "safe haven",
+      "replaceWith": "haven",
+      "replaceMessage": "Use 'haven' instead of 'safe haven' as 'haven' already implies safety."
+    },
+    {
+      "word": "the fact that",
+      "content": "Replace 'the fact that' with 'that' wherever possible",
+      "page": 33,
+      "replace": "the fact that",
+      "replaceWith": "that",
+      "replaceMessage": "Consider replacing 'the fact that' with 'that' for more concise writing."
+    },
+    {
+      "word": ["the industrial sector", "the agricultural sector", "the services sector"],
+      "content": "Replace 'the industrial sector', 'the agricultural sector', or 'the services sector' with 'industry', 'agriculture', or 'services'",
+      "page": 33,
+      "replace": ["the industrial sector", "the agricultural sector", "the services sector"],
+      "replaceWith": ["industry", "agriculture", "services"],
+      "replaceMessage": "Consider using 'industry', 'agriculture', or 'services' instead of 'the X sector' for more concise writing."
+    },
+    {
+      "word": "located in",
+      "content": "Replace 'located in' with 'in'",
+      "page": 33,
+      "replace": "located in",
+      "replaceWith": "in",
+      "replaceMessage": "Use 'in' instead of 'located in' for more concise writing."
+    },
+    {
+      "word": "pre-prepared",
+      "content": "Replace 'pre-prepared' with 'prepared'",
+      "page": 33,
+      "replace": "pre-prepared",
+      "replaceWith": "prepared",
+      "replaceMessage": "Use 'prepared' instead of 'pre-prepared' as 'pre-' is redundant."
+    },
+    {
+      "word": "pre-planned",
+      "content": "Replace 'pre-planned' with 'planned'",
+      "page": 33,
+      "replace": "pre-planned",
+      "replaceWith": "planned",
+      "replaceMessage": "Use 'planned' instead of 'pre-planned' as 'pre-' is redundant."
+    },
+    {
+      "word": "in close proximity to",
+      "content": "Replace 'in close proximity to' with 'close to'",
+      "page": 33,
+      "replace": "in close proximity to",
+      "replaceWith": "close to",
+      "replaceMessage": "Use 'close to' instead of 'in close proximity to' for more concise writing."
+    },
+    {
+      "content": "Your first duty is the truth. You may say slaves and homeless people instead of enslaved people and people experiencing homelessness because renaming the group does little and the stigma attached to one name often attaches to the other. Good writing about their lives, using ordinary language, does more to help than linguistic reshuffling does.",
+      "page": 34,
+      "message": "Prioritize truth and clear communication over euphemisms. Use straightforward language when discussing sensitive topics."
+    },
+    {
+      "content": "Don't use nouns to describe human beings. Use adjectives that modify a noun.",
+      "page": 35,
+      "message": "When describing people, use adjectives rather than nouns to avoid dehumanizing language."
+    },
+    {
+      "word": ["blacks", "gays", "jews", "disabled"],
+      "content": "Avoid using nouns like 'blacks', 'gays', 'jews', 'disabled' to describe people",
+      "page": 35,
+      "replace": ["blacks", "gays", "jews", "disabled"],
+      "replaceWith": ["Black people", "gay people", "Jewish people", "disabled people"],
+      "replaceMessage": "Use 'Black people', 'gay people', 'Jewish people', 'disabled people' instead of noun forms to describe groups of people."
+    },
+    {
+      "word": "community",
+      "content": "Be cautious with 'community + adj'",
+      "page": 35,
+      "message": "Be specific when using 'community'. Avoid overgeneralizing diverse groups of people."
+    },
+    {
+      "word": ["deprived", "disadvantaged", "underprivileged"],
+      "content": "Replace 'deprived', 'disadvantaged', 'underprivileged' with 'poor'",
+      "page": 35,
+      "replace": ["deprived", "disadvantaged", "underprivileged"],
+      "replaceWith": "poor",
+      "replaceMessage": "Consider using 'poor' instead of 'deprived', 'disadvantaged', or 'underprivileged' for more direct language."
+    },
+    {
+      "word": ["developing", "underdeveloped"],
+      "content": "Replace 'developing' or 'underdeveloped' with 'poor' when referring to countries",
+      "page": 35,
+      "replace": ["developing", "underdeveloped"],
+      "replaceWith": "poor",
+      "replaceMessage": "Consider using 'poor' instead of 'developing' or 'underdeveloped' when referring to countries, for more direct language."
+    },
+    {
+      "word": ["visually impaired", "hearing impaired"],
+      "content": "Replace 'visually impaired' with 'blind', 'hearing impaired' with 'deaf'",
+      "page": 35,
+      "replace": ["visually impaired", "hearing impaired"],
+      "replaceWith": ["blind", "deaf"],
+      "replaceMessage": "Consider using 'blind' or 'deaf' instead of 'visually impaired' or 'hearing impaired' for more direct language."
+    },
+    {
+      "word": ["schizophrenics", "wheelchair-bound"],
+      "content": "Avoid terms like 'schizophrenics' or 'wheelchair-bound'",
+      "page": 35,
+      "replace": ["schizophrenics", "wheelchair-bound"],
+      "replaceWith": ["people with schizophrenia", "wheelchair users"],
+      "replaceMessage": "Use 'people with schizophrenia' or 'wheelchair users' instead of 'schizophrenics' or 'wheelchair-bound' to put the person first."
+    },
+    {
+      "word": "suffer",
+      "partOfSpeech": "VERB",
+      "content": "Avoid 'suffer' unless they told you; use 'have'",
+      "page": 35,
+      "replace": "suffer",
+      "replaceWith": "have",
+      "replaceMessage": "Consider using 'have' instead of 'suffer' unless the person has explicitly used that term."
+    },
+    {
+      "content": "Prefer the active voice. It is more direct, shorter and simpler.",
+      "page": 40,
+      "dep": ["nsubjpass", "auxpass"],
+      "message": "This sentence uses passive voice. Consider using active voice for more direct and clear writing."
+    },
+    {
+      "word": "whom",
+      "partOfSpeech": "PRON",
+      "dep": ["dobj", "pobj"],
+      "content": "Whom is an object pronoun",
+      "page": 44,
+      "message": "Ensure 'whom' is used as an object pronoun."
+    },
+    {
+      "word": "who",
+      "partOfSpeech": "PRON",
+      "dep": "nsubj",
+      "content": "Who is a subject pronoun",
+      "page": 44,
+      "message": "Ensure 'who' is used as a subject pronoun."
+    },
+    {
+      "partOfSpeech": "VERB",
+      "content": "Singular subjects get a singular verb, with an -s at the end. Plural subjects get a verb with no -s.",
+      "page": 45,
+      "message": "Check for proper subject-verb agreement."
+    },
+    {
+      "dep": "conj",
+      "content": "Items in a list should be in the same grammatical form.",
+      "page": 46,
+      "message": "Ensure parallel structure in lists."
+    },
+    {
+      "partOfSpeech": "PUNCT",
+      "content": "Asides are set off by commas on both ends.",
+      "page": 47,
+      "message": "Check for proper punctuation around parenthetical expressions."
+    },
+    {
+      "word": "they",
+      "partOfSpeech": "PRON",
+      "content": "You may use they as a singular pronoun, but sometimes it is better to pluralise.",
+      "page": 52,
+      "message": "Ensure 'they' agrees with its antecedent when used as a singular pronoun."
+    },
+    {
+      "word": "might",
+      "partOfSpeech": "AUX",
+      "content": "Use might for counterfactuals.",
+      "page": 54,
+      "message": "Ensure 'might' is used appropriately in hypothetical situations."
+    },
+    {
+      "partOfSpeech": "ADV",
+      "content": "Avoid overuse of adverbs.",
+      "page": 33,
+      "message": "Consider removing or replacing unnecessary adverbs."
+    },
+    {
+      "partOfSpeech": "ADP",
+      "content": "Avoid overuse of prepositional phrases.",
+      "page": 33,
+      "message": "Consider simplifying or rephrasing to reduce prepositional phrases."
+    },
+    {
+      "partOfSpeech": "VERB",
+      "content": "Use consistent tense throughout a paragraph or section.",
+      "page": 45,
+      "message": "Ensure consistent verb tense in this section."
+    },
+    {
+      "partOfSpeech": "PRON",
+      "content": "Ensure proper noun-pronoun agreement.",
+      "page": 52,
+      "message": "Check that pronouns agree with their antecedents."
+    },
+    {
+      "partOfSpeech": "CCONJ",
+      "dep": "cc",
+      "content": "Use commas in compound sentences joined by coordinating conjunctions.",
+      "page": 43,
+      "message": "Consider adding a comma before the coordinating conjunction in this compound sentence."
+    },
+    {
+      "partOfSpeech": "PUNCT",
+      "content": "Avoid comma splices.",
+      "page": 43,
+      "message": "This may be a comma splice. Consider using a semicolon, period, or conjunction."
+    },
+    {
+      "word": "absent",
+      "partOfSpeech": "VERB",
+      "content": "Avoid using it as a verb.",
+      "page": 81,
+      "message": "Consider rephrasing to avoid using 'absent' as a verb."
+    },
+    {
+      "word": "absent",
+      "partOfSpeech": "ADP",
+      "content": "Don't use it as a preposition. It's Americanism.",
+      "page": 81,
+      "message": "Avoid using 'absent' as a preposition. Consider rephrasing."
+    },
+    {
+      "word": "acronym",
+      "partOfSpeech": "NOUN",
+      "content": "A pronounceable word formed from the initials of other words. Not just a set of capitals.",
+      "page": 81,
+      "message": "Ensure 'acronym' is used correctly for pronounceable words formed from initials."
+    },
+    {
+      "word": "actionable",
+      "partOfSpeech": "ADJ",
+      "content": "This word means giving ground for a lawsuit. Do not use it to mean capable of being put into practice: prefer practical or practicable.",
+      "page": 81,
+      "replace": "actionable",
+      "replaceWith": ["practical", "practicable"],
+      "replaceMessage": "Consider using 'practical' or 'practicable' instead of 'actionable' when referring to something that can be put into practice."
+    },
+    {
+      "word": "address",
+      "partOfSpeech": "VERB",
+      "content": "You address an audience but answer a question, discuss issues and solve problems.",
+      "page": 82,
+      "message": "Ensure 'address' is used correctly. Consider 'answer', 'discuss', or 'solve' for questions, issues, or problems respectively."
+    },
+    {
+      "content": "If proper nouns have adjectives, use them.",
+      "page": 82,
+      "message": "Check for and use appropriate adjectives with proper nouns."
+    },
+    {
+      "content": "Be careful when using adjectives for explanation, sometimes it can confuse the reader because the adjective indicates an alternative to the noun.",
+      "page": 82,
+      "message": "Ensure adjectives don't imply unintended alternatives to the noun they modify."
+    },
+    {
+      "word": "administration",
+      "partOfSpeech": "NOUN",
+      "content": "Use of administration to mean a country's political leadership should be reserved for those with presidential systems, especially America's. Parliamentary systems have governments.",
+      "page": 82,
+      "message": "Use 'administration' for presidential systems, 'government' for parliamentary systems."
+    },
+    {
+      "word": "advert",
+      "partOfSpeech": "NOUN",
+      "content": "Avoid Advert.",
+      "page": 83,
+      "replace": "advert",
+      "replaceWith": ["advertisement", "ad"],
+      "replaceMessage": "Consider using 'advertisement' or 'ad' instead of 'advert'."
+    },
+    {
+      "word": "aetiology",
+      "partOfSpeech": "NOUN",
+      "content": "Aetiology is the science of causation, or an inquiry into something's origins, and spelt thus in British English.",
+      "page": 83,
+      "message": "Ensure correct spelling and usage of 'aetiology' in British English."
+    },
+    {
+      "word": "affect",
+      "partOfSpeech": "VERB",
+      "content": "To affect means to influence or have an impact on someone or something, or in other words, produce an effect.",
+      "page": 83,
+      "message": "Ensure 'affect' is used correctly to mean 'influence' or 'impact'."
+    },
+    {
+      "word": "affect",
+      "partOfSpeech": "VERB",
+      "content": "A different verb, to affect, means to put on a false show of something, as in to affect an upper-class accent.",
+      "page": 83,
+      "message": "Ensure 'affect' is used correctly when meaning 'to put on a false show'."
+    },
+    {
+      "word": "effect",
+      "partOfSpeech": "VERB",
+      "content": "Effect is also a verb, meaning to bring something about, as in the strike effected change within the company.",
+      "page": 83,
+      "message": "Ensure 'effect' is used correctly as a verb meaning 'to bring about'."
+    },
+    {
+      "word": "affect",
+      "partOfSpeech": "NOUN",
+      "content": "And affect is also a noun meaning someone's feelings and emotions, as in a flat affect.",
+      "page": 83,
+      "message": "Ensure 'affect' is used correctly as a noun referring to emotions or feelings."
+    },
+    {
+      "word": "affordable",
+      "partOfSpeech": "ADJ",
+      "content": "By whom? You mean something is subsidised, inexpensive or merely cheap.",
+      "page": 83,
+      "replace": "affordable",
+      "replaceWith": ["subsidised", "inexpensive", "cheap"],
+      "replaceMessage": "Consider using 'subsidised', 'inexpensive', or 'cheap' instead of 'affordable' for more precision."
+    },
+    {
+      "word": "aggravate",
+      "partOfSpeech": "VERB",
+      "content": "Use it when you mean to worsen, not as a synonym for irritate or annoy.",
+      "page": 83,
+      "message": "Ensure 'aggravate' is used to mean 'worsen', not 'irritate' or 'annoy'."
+    },
+    {
+      "word": "aggression",
+      "partOfSpeech": "NOUN",
+      "content": "Aggression is an unattractive quality, so do not call a keen salesman an aggressive one (unless his foot is in the door).",
+      "page": 83,
+      "message": "Be cautious when using 'aggression' or 'aggressive' to describe positive qualities."
+    },
+    {
+      "word": "agree",
+      "partOfSpeech": "VERB",
+      "content": "Use with prepositions: things are agreed on, to or about, not just agreed.",
+      "page": 84,
+      "message": "Ensure 'agree' is used with the correct preposition: 'on', 'to', or 'about'."
+    },
+    {
+      "word": "alibi",
+      "partOfSpeech": "NOUN",
+      "content": "An alibi is the fact of being elsewhere as a legal defence. It is not the same thing as a false explanation.",
+      "page": 84,
+      "message": "Ensure 'alibi' is used correctly to mean a legal defense of being elsewhere, not a false explanation."
+    },
+    {
+      "word": ["alternate", "alternative"],
+      "partOfSpeech": ["ADJ", "NOUN"],
+      "content": "Alternate, as an adjective, means every other. As a noun, it means a stand-in. As an adjective, alternative means of two or more things, or possible as an alternative.",
+      "page": 84,
+      "message": "Ensure 'alternate' and 'alternative' are used correctly based on their distinct meanings."
+    },
+    {
+      "word": "among",
+      "partOfSpeech": "ADP",
+      "content": "Not amongst.",
+      "page": 84,
+      "replace": "amongst",
+      "replaceWith": "among",
+      "replaceMessage": "Use 'among' instead of 'amongst'."
+    },
+    {
+      "word": "an",
+      "partOfSpeech": "DET",
+      "content": "An should be used before a word beginning with a vowel sound (an egg, an umbrella, an MP) or an h if the h is silent (an honorary degree). But a European, a university.",
+      "page": 84,
+      "message": "Use 'an' before words starting with vowel sounds or silent 'h', but 'a' before words like 'European' or 'university'."
+    },
+    {
+      "word": ["analogue", "homologue"],
+      "partOfSpeech": "NOUN",
+      "content": "An analogue is of similar function to something else. A homologue corresponds in its nature to something else (as a bird's wing and a seal's flipper do to a human arm) because of common evolutionary origin.",
+      "page": 84,
+      "message": "Ensure 'analogue' and 'homologue' are used correctly based on their distinct meanings."
+    },
+    {
+      "word": "anarchy",
+      "partOfSpeech": "NOUN",
+      "content": "Anarchy means the complete absence of law or government. It may be harmonious or chaotic.",
+      "page": 84,
+      "message": "Ensure 'anarchy' is used correctly to mean absence of government, not necessarily chaos."
+    },
+    {
+      "word": "annus horribilis",
+      "partOfSpeech": "NOUN",
+      "content": "This is used, in contrast to annus mirabilis, to describe an awful year.",
+      "page": 85,
+      "message": "Use 'annus horribilis' only to describe a terrible year, in contrast to 'annus mirabilis'."
+    },
+    {
+      "word": "anon",
+      "partOfSpeech": "ADV",
+      "content": "Anon means soon.",
+      "page": 85,
+      "message": "Use 'anon' only to mean 'soon', not as an abbreviation for 'anonymous'."
+    },
+    {
+      "word": "anticipate",
+      "partOfSpeech": "VERB",
+      "content": "Do not use anticipate for the simpler expect. Use anticipate to mean doing something ahead of something else.",
+      "page": 85,
+      "replace": "anticipate",
+      "replaceWith": "expect",
+      "replaceMessage": "Consider using 'expect' instead of 'anticipate' unless you mean taking action in advance."
+    },
+    {
+      "word": ["apostasy", "heresy", "blasphemy"],
+      "partOfSpeech": "NOUN",
+      "content": "If you abandon your religion, you commit apostasy. If that religion is the prevailing one in your community, and your beliefs are contrary to its orthodoxy, you commit heresy. Speech deemed offensively irreverent of deities and cherished religious beliefs is blasphemy.",
+      "page": 85,
+      "message": "Ensure 'apostasy', 'heresy', and 'blasphemy' are used correctly based on their distinct meanings."
+    },
+    {
+      "word": "appeal",
+      "partOfSpeech": "VERB",
+      "content": "Appeal is intransitive (except in America), so appeal against decisions.",
+      "page": 85,
+      "message": "Use 'appeal against' rather than just 'appeal' when referring to decisions."
+    },
+    {
+      "word": ["appraise", "apprise"],
+      "partOfSpeech": "VERB",
+      "content": "Appraise means set a price on. Apprise means inform.",
+      "page": 85,
+      "message": "Ensure 'appraise' and 'apprise' are used correctly based on their distinct meanings."
+    },
+    {
+      "word": ["arrant", "errant"],
+      "partOfSpeech": "ADJ",
+      "content": "Arrant means downright or unmitigated. Errant meaning wandering, off-course or wide of the mark.",
+      "page": 86,
+      "message": "Ensure 'arrant' and 'errant' are used correctly based on their distinct meanings."
+    },
+    {
+      "word": "assassinate",
+      "partOfSpeech": "VERB",
+      "content": "Assassinate is, properly, the term used not just for any old killing, but for the murder of a prominent person, usually for a political purpose.",
+      "page": 86,
+      "message": "Use 'assassinate' only for the murder of prominent figures, typically for political reasons."
+    },
+    {
+      "word": ["autarchy", "autarky"],
+      "partOfSpeech": "NOUN",
+      "content": "Autarchy means absolute sovereignty. Autarky means self-sufficiency.",
+      "page": 86,
+      "message": "Ensure 'autarchy' and 'autarky' are used correctly based on their distinct meanings."
+    },
+    {
+      "word": ["avert", "avoid", "evade"],
+      "partOfSpeech": "VERB",
+      "content": "To avert something means to head it off. To avoid it means to keep away from it. To evade it means to elude it or escape it artfully.",
+      "page": 86,
+      "message": "Ensure 'avert', 'avoid', and 'evade' are used correctly based on their distinct meanings."
+    },
+    {
+      "word": "avocation",
+      "partOfSpeech": "NOUN",
+      "content": "An avocation is a diversion from your ordinary employment, or even a hobby, not a synonym for vocation.",
+      "page": 86,
+      "message": "Use 'avocation' for a hobby or side interest, not as a synonym for 'vocation'."
+    },
+    {
+      "word": ["bail", "bale"],
+      "partOfSpeech": "NOUN",
+      "content": "Bale in a hayfield. Bail from jail.",
+      "page": 86,
+      "message": "Use 'bale' for bundles of hay, 'bail' for release from jail or financial contexts."
+    },
+    {
+      "word": "-based",
+      "content": "Use it for location.",
+      "page": 86,
+      "message": "Use '-based' primarily to indicate location, not for other types of attribution."
+    },
+    {
+      "word": "beg the question",
+      "content": "Do not use beg the question for raise the question or evade the answer. To beg the question is to adopt an argument whose validity depends upon assuming the truth of the very conclusion the argument is designed to produce.",
+      "page": 87,
+      "message": "Use 'beg the question' only for circular reasoning, not as a synonym for 'raise the question'."
+    },
+    {
+      "word": "bellwether",
+      "partOfSpeech": "NOUN",
+      "content": "It has nothing to do with prevailing winds. A bellwether is the leading sheep of a flock",
+      "page": 87,
+      "message": "Use 'bellwether' to refer to a leader or indicator, not related to weather."
+    },
+    {
+      "word": "between",
+      "partOfSpeech": "ADP",
+      "content": "No distinction between between and among.",
+      "page": 87,
+      "message": "You can use 'between' for more than two items, not just 'among'."
+    },
+    {
+      "word": ["biannual", "biennial", "biweekly", "bimonthly", "bicentennial"],
+      "content": "Biannual can mean twice a year or once every two years. Avoid. Since biennial also means once every two years, that is best avoided too. Bimonthly and biweekly are similarly ambiguous. Fortnightly is clearer.",
+      "page": 87,
+      "replace": ["biannual", "biennial", "biweekly", "bimonthly"],
+      "replaceWith": ["twice a year", "every two years", "fortnightly", "every two months"],
+      "replaceMessage": "Consider using more specific terms to avoid ambiguity."
+    },
+    {
+      "word": "black",
+      "content": "In the black means in profit. It can be misunderstood so avoid.",
+      "page": 87,
+      "replace": "in the black",
+      "replaceWith": "profitable",
+      "replaceMessage": "Consider using 'profitable' instead of 'in the black' to avoid potential misunderstanding."
+    },
+    {
+      "word": ["blond", "blonde"],
+      "partOfSpeech": "ADJ",
+      "content": "Use blonde to describe fair-haired women, and blond for everything else, including the hair of a blonde.",
+      "page": 88,
+      "message": "Use 'blonde' for women, 'blond' for men and hair color."
+    },
+    {
+      "word": ["blooded", "bloodied"],
+      "partOfSpeech": "ADJ",
+      "content": "Blooded can mean pedigreed, or also initiated. Bloodied means wounded.",
+      "page": 88,
+      "message": "Use 'blooded' for pedigree or initiation, 'bloodied' for wounded."
+    },
+    {
+      "word": ["blue", "red"],
+      "content": "Be careful in political context. American usage (red for Republican, blue for Democratic) is the opposite of almost everyone else's, where red is left-wing.",
+      "page": 88,
+      "message": "Be aware of differing political color associations in different countries."
+    },
+    {
+      "word": "bon vivant",
+      "content": "Bon vivant, not bon viveur.",
+      "page": 88,
+      "replace": "bon viveur",
+      "replaceWith": "bon vivant",
+      "replaceMessage": "Use 'bon vivant', not 'bon viveur'."
+    },
+    {
+      "content": "A preposition placed after both should be repeated after and. (to ... and to ...)",
+      "page": 88,
+      "message": "Repeat prepositions after 'both' and 'and' for clarity."
+    },
+    {
+      "word": "bowdlerisation",
+      "partOfSpeech": "NOUN",
+      "content": "An insidious form of censorship. Use the word, but avoid the practice of bowdlerisation in your own writing.",
+      "page": 88,
+      "message": "Be aware of 'bowdlerisation' as censorship, but avoid practicing it."
+    },
+    {
+      "word": "brokerage",
+      "partOfSpeech": "NOUN",
+      "content": "Brokerage is what a stockbroking firm does, not what it is.",
+      "page": 88,
+      "message": "Use 'brokerage' for the service, not the firm itself."
+    },
+    {
+      "word": ["by contrast", "in contrast"],
+      "content": "Use by contrast only when comparing one thing with another. If you are simply noting a difference, say in contrast.",
+      "page": 89,
+      "message": "Use 'by contrast' for comparisons, 'in contrast' for noting differences."
+    },
+    {
+      "word": "Canute",
+      "partOfSpeech": "PROPN",
+      "content": "King Canute did not command the tide to go back. He was demonstrating to his courtiers that he could not. If using him as a byword, it should be for humility. Don't imply he was surprised to get his feet wet.",
+      "page": 89,
+      "message": "Use the Canute reference correctly to symbolize humility, not futile commands."
+    },
+    {
+      "word": ["career", "careen"],
+      "partOfSpeech": "VERB",
+      "content": "As a verb, career means to gallop or rush. The noun career means the rush through life, or the part of it that passes as a job. Careen means to turn a boat on its side (particularly to clean or repair its hull).",
+      "page": 89,
+      "message": "Use 'career' for rushing, 'careen' for tilting a boat."
+    },
+    {
+      "word": "cartel",
+      "partOfSpeech": "NOUN",
+      "content": "A cartel is a group that controls supply in order to drive up prices. Use it as such.",
+      "page": 89,
+      "message": "Use 'cartel' specifically for groups controlling supply to increase prices."
+    },
+    {
+      "word": "case",
+      "content": "Often you can do without it.",
+      "page": 89,
+      "message": "Consider if 'case' is necessary or if the sentence works without it."
+    },
+    {
+      "word": "Cassandra",
+      "partOfSpeech": "PROPN",
+      "content": "Do not use Cassandra as a synonym for any prophet of doom. Her curse was that her predictions were always correct, but never believed.",
+      "page": 89,
+      "message": "Use 'Cassandra' only for correct but disbelieved predictions, not general doom-saying."
+    },
+    {
+      "word": "catalyst",
+      "partOfSpeech": "NOUN",
+      "content": "This is something that speeds up a chemical reaction while itself remaining unchanged. Do not confuse it with one of the agents.",
+      "page": 90,
+      "message": "Use 'catalyst' only for something that facilitates change without being changed itself."
+    },
+    {
+      "word": ["celibacy", "chastity", "abstinence"],
+      "partOfSpeech": "NOUN",
+      "content": "Celibate originally meant unmarried. Chaste meant not taking part in unlawful sex. Times have rendered both words rare, and they are now often understood as abstinence. Use context to clarify.",
+      "page": 90,
+      "message": "Be clear about the intended meaning of 'celibacy', 'chastity', or 'abstinence' through context."
+    },
+    {
+      "word": "centred",
+      "partOfSpeech": "VERB",
+      "content": "Centred on, not around or in.",
+      "page": 90,
+      "replace": ["centred around", "centred in"],
+      "replaceWith": "centred on",
+      "replaceMessage": "Use 'centred on', not 'centred around' or 'centred in'."
+    },
+    {
+      "word": "challenge",
+      "partOfSpeech": "NOUN",
+      "content": "No one has to face a change, difficulty, task or job. Next time you face a challenge on the page, challenge yourself to find a more specific, less overused word.",
+      "page": 90,
+      "message": "Consider using more specific terms instead of the overused 'challenge'."
+    },
+    {
+      "word": "charge",
+      "partOfSpeech": "VERB",
+      "content": "If you charge intransitively, do so as a bull, cavalry officer or the like, not as an accuser.",
+      "page": 90,
+      "message": "Use 'charge' intransitively only for physical rushing, not for accusing."
+    },
+    {
+      "word": ["check", "cheque", "chequer"],
+      "content": "As a verb, check means bring to a halt or to ascertain the accuracy of something. As a noun, it means, a stop or rebuff, or a position in chess, or a square, as on a tablecloth. A cheque is an order for money. A chequer is a pattern of different-coloured squares. So chequered means eventful or variegated, as in the euphemism of a chequered past.",
+      "page": 90,
+      "message": "Ensure correct usage of 'check', 'cheque', and 'chequer' based on their distinct meanings."
+    },
+    {
+      "word": "cherry-pick",
+      "partOfSpeech": "VERB",
+      "content": "Use it if you must. Note that to cherry-pick means to engage in careful rather than indiscriminate selection.",
+      "page": 91,
+      "message": "Use 'cherry-pick' only for careful, deliberate selection, not random choice."
+    },
+    {
+      "word": "circumstances",
+      "partOfSpeech": "NOUN",
+      "content": "Circumstances stand around a thing, so it is in, not under, them.",
+      "page": 91,
+      "replace": "under the circumstances",
+      "replaceWith": "in the circumstances",
+      "replaceMessage": "Use 'in the circumstances', not 'under the circumstances'."
+    },
+    {
+      "word": "civil society",
+      "partOfSpeech": "NOUN",
+      "content": "It can, however, be a useful term to describe collectively all non-commercial organisations between the family and the state. Do not use it as a synonym for NGOs.",
+      "page": 91,
+      "message": "Use 'civil society' for non-commercial organizations collectively, not as a synonym for NGOs."
+    },
+    {
+      "word": "co-",
+      "content": "The prefix co- is redundant in sentences where both parties are mentioned.",
+      "page": 91,
+      "message": "Avoid redundant use of 'co-' when both parties are explicitly mentioned."
+    },
+    {
+      "word": "coiffed",
+      "partOfSpeech": "VERB",
+      "content": "Coiffed, not coiffured.",
+      "page": 91,
+      "replace": "coiffured",
+      "replaceWith": "coiffed",
+      "replaceMessage": "Use 'coiffed', not 'coiffured'."
+    },
+    {
+      "word": "collectable",
+      "partOfSpeech": "ADJ",
+      "content": "Since almost anything can be collected, collectable tells the reader little. Use valuable, popular or in demand.",
+      "page": 91,
+      "replace": "collectable",
+      "replaceWith": ["valuable", "popular", "in demand"],
+      "replaceMessage": "Consider using 'valuable', 'popular', or 'in demand' instead of the vague 'collectable'."
+    },
+    {
+      "word": "come up with",
+      "partOfSpeech": "VERB",
+      "content": "Try suggest, originate or produce.",
+      "page": 91,
+      "replace": "come up with",
+      "replaceWith": ["suggest", "originate", "produce"],
+      "replaceMessage": "Consider using 'suggest', 'originate', or 'produce' instead of 'come up with'."
+    },
+    {
+      "word": "community",
+      "partOfSpeech": "NOUN",
+      "content": "Community is useful when referring to people actually acting in communion. A community (whether a town, ethnic group or religion) may pull together after a tragedy, for example. In other uses, the word is empty, or you may be implying a unity that doesn't exist.",
+      "page": 92,
+      "message": "Use 'community' only when there's genuine communal action or identity, not as a vague collective term."
+    },
+    {
+      "word": ["compare to", "compare with"],
+      "partOfSpeech": "VERB",
+      "content": "A traditional rule has it that compared to is for a simple likeness and compared with is used to evaluate similarities and highlight differences too. The distinction is worth observing but in some cases either would work.",
+      "page": 92,
+      "message": "Use 'compare to' for simple likeness, 'compare with' for evaluating similarities and differences."
+    },
+    {
+      "word": "compensation",
+      "partOfSpeech": "NOUN",
+      "content": "Try to reserve compensation for amends, especially for a loss.",
+      "page": 92,
+      "message": "Use 'compensation' primarily for amends or recompense for loss, not as a general term for payment."
+    },
+    {
+      "word": "compound",
+      "partOfSpeech": "VERB",
+      "content": "Do not use compound where the more straightforward worsen or even just increase would do.",
+      "page": 93,
+      "replace": "compound",
+      "replaceWith": ["worsen", "increase"],
+      "replaceMessage": "Consider using 'worsen' or 'increase' instead of 'compound' for clarity."
+    },
+    {
+      "word": "comprise",
+      "partOfSpeech": "VERB",
+      "content": "Comprise is contaminated. Originally it meant a whole comprises its parts, but now it is often used to mean the parts comprise the whole. Consists of and is composed of are less likely to trip you up.",
+      "page": 93,
+      "replace": "comprise",
+      "replaceWith": ["consist of", "is composed of"],
+      "message": "Consider using 'consist of' or 'is composed of' instead of 'comprise' to avoid ambiguity."
+    },
+    {
+      "word": "contemporary",
+      "partOfSpeech": "ADJ",
+      "content": "Means at that same time, so when writing about the past, contemporary prices are not today's.",
+      "page": 93,
+      "message": "Ensure 'contemporary' is used to mean 'at the same time' in historical contexts, not 'current'."
+    },
+    {
+      "word": ["continual", "continuous"],
+      "partOfSpeech": "ADJ",
+      "content": "Continuous describes something uninterrupted. Continual admits of a break.",
+      "page": 93,
+      "message": "Use 'continuous' for uninterrupted events, 'continual' for repeated events with breaks."
+    },
+    {
+      "word": "convince",
+      "partOfSpeech": "VERB",
+      "content": "Do not convince people to do something or to believe something. The verb you want is persuade.",
+      "page": 93,
+      "replace": "convince",
+      "replaceWith": "persuade",
+      "message": "Use 'persuade' instead of 'convince' when followed by 'to do' or 'to believe'."
+    },
+    {
+      "word": "core",
+      "partOfSpeech": "ADJ",
+      "content": "Like key, core is used too often as a trendy modifier. Do not write This is the core problem.",
+      "page": 94,
+      "replace": "core",
+      "replaceWith": "",
+      "message": "Consider removing 'core' or using a more specific descriptor."
+    },
+    {
+      "word": "coruscate",
+      "partOfSpeech": "VERB",
+      "content": "This means sparkle or throw off flashes of light. Not devastate or lash (that's excoriate) or reduce to wrinkles (that's corrugate). Neither does coruscating mean corrosive, bitter or burning (that's caustic).",
+      "page": 94,
+      "message": "Use 'coruscate' only to mean 'sparkle' or 'flash', not for other intense effects."
+    },
+    {
+      "word": "cost-effective",
+      "partOfSpeech": "ADJ",
+      "content": "Cost-effective sounds authoritative, but does it mean good value, gives a big bang for the buck or just plain cheap? If cheap, say cheap.",
+      "page": 94,
+      "replace": "cost-effective",
+      "replaceWith": ["good value", "cheap"],
+      "message": "Consider using more specific terms like 'good value' or 'cheap' instead of 'cost-effective'."
+    },
+    {
+      "word": "could",
+      "partOfSpeech": "AUX",
+      "content": "Could is useful as a variant of may or might. But prefer may which is usually more precise. Could both means had the chance to do sth and did sth.",
+      "page": 94,
+      "replace": "could",
+      "replaceWith": "may",
+      "message": "Consider using 'may' instead of 'could' for more precision, unless indicating past ability."
+    },
+    {
+      "word": "crescendo",
+      "partOfSpeech": "NOUN",
+      "content": "This is a passage of increasing loudness. Do not use as a synonym for peak or zenith, and therefore do not build to a crescendo.",
+      "page": 94,
+      "message": "Use 'crescendo' only for increasing intensity, not for a peak or climax."
+    },
+    {
+      "word": "crisis",
+      "partOfSpeech": "NOUN",
+      "content": "A crisis is a decisive event or turning-point. Not everything is a crisis.",
+      "page": 94,
+      "message": "Reserve 'crisis' for truly decisive or critical events, not for every difficult situation."
+    },
+    {
+      "word": "critique",
+      "partOfSpeech": "VERB",
+      "content": "Prefer to offer a critique or similar rather than verbing critique, though to critique is permissible if alternatives do not work. It is not the same as to criticise, which is to offer a negative appraisal rather than a thoughtful one.",
+      "page": 95,
+      "message": "Use 'critique' as a noun when possible; as a verb, ensure it means 'analyze' not just 'criticize'."
+    },
+    {
+      "word": "current",
+      "partOfSpeech": "ADJ",
+      "content": "Current can mean at that time, but it is also loosely used to mean relating to today. To avoid confusion, use today's prices, etc, when writing about the present.",
+      "page": 95,
+      "replace": "current",
+      "replaceWith": "today's",
+      "message": "When referring to the present, consider using 'today's' instead of 'current' to avoid ambiguity."
+    },
+    {
+      "word": "data",
+      "partOfSpeech": "NOUN",
+      "content": "Data was originally plural in English. Use the plural when you are talking about collected observations. But use the singular when you are speaking either about the concept (Data is more important than physical inventory) or the totality (the data held by Google).",
+      "page": 95,
+      "message": "Use 'data' as plural for collected observations, singular for the concept or totality."
+    },
+    {
+      "word": "deal",
+      "partOfSpeech": "VERB",
+      "content": "Do not deal drugs, horses, weapons, etc; deal in them.",
+      "page": 95,
+      "replace": "deal",
+      "replaceWith": "deal in",
+      "message": "Use 'deal in' for commodities, not 'deal' alone."
+    },
+    {
+      "word": "decimate",
+      "partOfSpeech": "VERB",
+      "content": "Use decimate to mean to destroy a significant proportion of something. Use annihilate, wipe out or something else for utter destruction.",
+      "page": 96,
+      "message": "Use 'decimate' for partial destruction, not total annihilation."
+    },
+    {
+      "word": "degrees",
+      "partOfSpeech": "NOUN",
+      "content": "Universities give degrees. American high schools award diplomas.",
+      "page": 96,
+      "message": "Use 'degrees' for university qualifications, 'diplomas' for American high school completions."
+    },
+    {
+      "word": ["deprecate", "depreciate"],
+      "partOfSpeech": "VERB",
+      "content": "To deprecate is to argue or plead against, and therefore to run down or belittle something. To depreciate is to fall in value",
+      "page": 96,
+      "message": "Use 'deprecate' for criticism or disapproval, 'depreciate' for loss of value."
+    },
+    {
+      "word": "different",
+      "partOfSpeech": "ADJ",
+      "content": "Use different from, not the British alternative different to or the American different than.",
+      "page": 96,
+      "replace": ["different to", "different than"],
+      "replaceWith": "different from",
+      "message": "Use 'different from', not 'different to' or 'different than'."
+    },
+    {
+      "word": "dilemma",
+      "partOfSpeech": "NOUN",
+      "content": "Do not use for any old awkwardness. A dilemma thus offers a choice of between alternatives with equally nasty consequences.",
+      "page": 96,
+      "message": "Use 'dilemma' only for a choice between equally undesirable alternatives, not for any difficult situation."
+    },
+    {
+      "word": "disconnect",
+      "partOfSpeech": "NOUN",
+      "content": "This voguish nouning of the verb to disconnect implies that a connection made in the past is now severed, as in an interrupted call. Replace total disconnect with no connection.",
+      "page": 96,
+      "replace": "total disconnect",
+      "replaceWith": "no connection",
+      "message": "Consider using 'no connection' instead of 'total disconnect' for clarity."
+    },
+    {
+      "word": ["discreet", "discrete"],
+      "partOfSpeech": "ADJ",
+      "content": "Discreet means circumspect or prudent. Discrete means separate or distinct.",
+      "page": 97,
+      "message": "Use 'discreet' for prudence, 'discrete' for separateness."
+    },
+    {
+      "word": ["disinterested", "uninterested"],
+      "partOfSpeech": "ADJ",
+      "content": "Disinterested means impartial. Uninterested means bored.",
+      "page": 97,
+      "message": "Use 'disinterested' for impartiality, 'uninterested' for lack of interest."
+    },
+    {
+      "word": "Dived",
+      "partOfSpeech": "VERB",
+      "content": "For the past tense and past participle of dive, use dived, not dove.",
+      "page": 97,
+      "replace": "dove",
+      "replaceWith": "dived",
+      "message": "Use 'dived' as the past tense of 'dive', not 'dove'."
+    },
+    {
+      "word": "down to",
+      "content": "Down to earth not down to human rights. Use caused by, attributable to, the responsibility of or explained by.",
+      "page": 97,
+      "replace": "down to",
+      "replaceWith": ["caused by", "attributable to", "the responsibility of", "explained by"],
+      "message": "Consider using 'caused by', 'attributable to', 'the responsibility of', or 'explained by' instead of 'down to'."
+    },
+    {
+      "word": "driver",
+      "partOfSpeech": "NOUN",
+      "content": "Driver is a person who sits behind a steering wheel. Try agent for a human. If speaking of a force, as in the key driver of growth in the fourth quarter, try source or cause.",
+      "page": 97,
+      "replace": "driver",
+      "replaceWith": ["agent", "source", "cause"],
+      "message": "Consider using 'agent' for a person, or 'source'/'cause' for a force, instead of 'driver'."
+    },
+    {
+      "word": "due process",
+      "partOfSpeech": "NOUN",
+      "content": "It comes in two forms, substantive due process, which relates to the duties of governments to act rationally and proportionally when doing anything that affects citizens' rights, and procedural due process, which relates to the need for fair procedures. If you use the expression, make sure it is clear what you mean by it. A preferable alternative may be legally, properly or in accordance with the law.",
+      "page": 97,
+      "replace": "due process",
+      "replaceWith": ["legally", "properly", "in accordance with the law"],
+      "message": "Consider using more specific terms like 'legally', 'properly', or 'in accordance with the law' instead of 'due process'."
+    },
+    {
+      "word": "due to",
+      "content": "Due to modifies a noun, because due is an adjective. Now often used like an adverb, modifying a verb (It was cancelled due to rain), because of, on account of and owing to are better.",
+      "page": 98,
+      "replace": "due to",
+      "replaceWith": ["because of", "on account of", "owing to"],
+      "message": "Consider using 'because of', 'on account of', or 'owing to' instead of 'due to' when modifying a verb."
+    },
+    {
+      "word": ["effectively", "in effect", "effectual"],
+      "content": "Use effectively to mean with effect, usually a positive effect. If you mean in effect, say that. Not effectively. Effectual means carried out with the intended effect.",
+      "page": 98,
+      "message": "Use 'effectively' for positive effect, 'in effect' for reality, and 'effectual' for intended outcomes."
+    },
+    {
+      "word": "elite",
+      "partOfSpeech": "NOUN",
+      "content": "Once meaning a chosen group or the pick of the bunch, elite is now almost always used pejoratively. But you should be more specific.",
+      "page": 98,
+      "message": "Be cautious with 'elite'; it's often pejorative. Consider using more specific terms."
+    },
+    {
+      "word": ["enclave", "exclave"],
+      "partOfSpeech": "NOUN",
+      "content": "An enclave is a piece of territory entirely surrounded by foreign territory. An exclave belongs to but is separated from another country. Some are both, use depending on focus.",
+      "page": 98,
+      "message": "Use 'enclave' for surrounded territory, 'exclave' for separated territory. Some places can be both."
+    },
+    {
+      "word": ["endemic", "epidemic", "pandemic"],
+      "partOfSpeech": "ADJ",
+      "content": "Endemic means prevalent or generally found in a place or population. An epidemic means prevalent among a population at a particular time. Pandemic is used for a global outbreak of disease like covid-19.",
+      "page": 98,
+      "message": "Use 'endemic' for constant presence, 'epidemic' for widespread occurrence, and 'pandemic' for global outbreaks."
+    },
+    {
+      "word": "enormity",
+      "partOfSpeech": "NOUN",
+      "content": "Enormity traditionally means a crime or monstrous wickedness. For the great size of something, use magnitude.",
+      "page": 99,
+      "replace": "enormity",
+      "replaceWith": "magnitude",
+      "message": "Use 'enormity' for wickedness, 'magnitude' for great size."
+    },
+    {
+      "word": "environment",
+      "partOfSpeech": "NOUN",
+      "content": "Often cuttable, as in the business environment, the work environment, etc. Try to rephrase—conditions for business, at work, etc. Surroundings can sometimes do the job.",
+      "page": 99,
+      "replace": "environment",
+      "replaceWith": ["conditions", "surroundings"],
+      "message": "Consider using more specific terms like 'conditions' or 'surroundings' instead of 'environment'."
+    },
+    {
+      "word": "epicentre",
+      "partOfSpeech": "NOUN",
+      "content": "Epicentre means that point on the surface (usually the Earth's) above the centre of something below (usually an earthquake). This can be extended metaphorically to mean the centre of some other great upheaval or disaster, but do not use it as a fancy synonym for centre. The hypocentre, in contrast, is the place on the surface (usually of the Earth) below something above (usually an explosion).",
+      "page": 99,
+      "message": "Use 'epicentre' for the surface point above a center, not as a general synonym for 'center'."
+    },
+    {
+      "word": "eponymous",
+      "partOfSpeech": "ADJ",
+      "content": "This is the adjective of eponym, which is the person or thing after which something is named.",
+      "page": 99,
+      "message": "Use 'eponymous' only when referring to the source of a name, not as a general descriptor."
+    },
+    {
+      "content": "In general, use the words that people would describe themselves with in ordinary conversation.",
+      "page": 99,
+      "message": "When referring to ethnic and racial groups, use terms people use for themselves in everyday conversation."
+    },
+    {
+      "word": ["euthanasia", "euthanise"],
+      "content": "Euthanasia is assisted dying, a better term, though euthanasia may be used for variation. But avoid the verb euthanise. Animals may be put to sleep. Humans are helped to die (or use a more specific description, as appropriate).",
+      "page": 101,
+      "replace": "euthanise",
+      "replaceWith": ["put to sleep", "help to die"],
+      "message": "Use 'put to sleep' for animals, 'help to die' for humans, instead of 'euthanise'."
+    },
+    {
+      "word": ["evangelical", "evangelistic"],
+      "partOfSpeech": "ADJ",
+      "content": "Evangelical means pertaining to the Gospel and so, among Protestants, relating to a church that believes in the sole authority and inerrancy of the Bible. Only a church with Evangelical in its name, or a member of such a church, should be given an initial capital; the rest are evangelical.",
+      "page": 101,
+      "message": "Capitalize 'Evangelical' only for churches with that name; otherwise, use lowercase 'evangelical'."
+    },
+    {
+      "word": "ex-",
+      "content": "Ex- (and former): be careful. A communist ex-member has lost his seat; an ex-communist member has lost his party.",
+      "page": 101,
+      "message": "Be precise with 'ex-'. 'Ex-member' means former member, 'ex-communist member' means current member, former communist."
+    },
+    {
+      "content": "This proverb derives from an old legal maxim: The exception confirms the rule in cases not excepted. For example, in No parking on Sundays, the ban on Sundays implicitly confirms a rule allowing parking on other days. Do not use this to mean the existence of an exception arms the validity of the rule.",
+      "page": 101,
+      "message": "Use 'exception that proves the rule' only in its original sense, not to validate rules by their exceptions."
+    },
+    {
+      "word": "execute",
+      "partOfSpeech": "VERB",
+      "content": "Execute means put to death by law. Do not use it as a synonym for murder. An extra-judicial execution is a contradiction in terms.",
+      "page": 101,
+      "message": "Use 'execute' only for legal death sentences, not as a synonym for murder."
+    },
+    {
+      "word": ["exhausting", "exhaustive"],
+      "partOfSpeech": "ADJ",
+      "content": "One is tiring, the other thorough.",
+      "page": 102,
+      "message": "Use 'exhausting' for tiring, 'exhaustive' for thorough."
+    },
+    {
+      "word": "existential",
+      "partOfSpeech": "ADJ",
+      "content": "Existential means of or pertaining to existence. It is sometimes used in such phrases as existential threat or existential crisis, where the author wants it to mean a threat to the existence or purpose of sth. Do not use to mean merely grave or serious.",
+      "page": 102,
+      "message": "Use 'existential' only for matters of existence, not as a synonym for 'serious' or 'grave'."
+    },
+    {
+      "word": "experience",
+      "partOfSpeech": "NOUN",
+      "content": "By all means accumulate experience, and even experiences, but avoid them in your prose in phrases like user experience, customer experience and dining experience.",
+      "page": 102,
+      "message": "Avoid overusing 'experience' in phrases like 'user experience'. Consider more specific terms."
+    },
+    {
+      "word": "factoid",
+      "partOfSpeech": "NOUN",
+      "content": "This is originally something that is thought by many to be a fact, but is not in fact a fact. The -oid suffix (\"having the form of\") is the key. If you mean an amusing fact, say that. If you mean an urban legend, that would be clearer than factoid.",
+      "page": 102,
+      "replace": "factoid",
+      "replaceWith": ["amusing fact", "urban legend"],
+      "message": "Use 'factoid' only for false beliefs. For true information, use 'amusing fact' or similar terms."
+    },
+    {
+      "word": "fed up",
+      "content": "Fed up with, not of. Ditto, bored.",
+      "page": 102,
+      "replace": ["fed up of", "bored of"],
+      "replaceWith": ["fed up with", "bored with"],
+      "message": "Use 'fed up with' and 'bored with', not 'fed up of' or 'bored of'."
+    },
+    {
+      "word": "fellow",
+      "partOfSpeech": "ADJ",
+      "content": "Perfectly good as a stand-alone noun, but unnecessary before countrymen, classmates and other nouns that already imply fellow status.",
+      "page": 102,
+      "message": "Avoid redundant use of 'fellow' before words that already imply shared status."
+    },
+    {
+      "word": "feral",
+      "partOfSpeech": "ADJ",
+      "content": "This word can mean brutish or uncultivated, but is best used of plants, animals, children, etc, that were once tamed or domesticated but have run wild.",
+      "page": 102,
+      "message": "Use 'feral' primarily for once-domesticated things that have gone wild, not just as a synonym for 'wild' or 'brutish'."
+    },
+    {
+      "word": ["ferment", "foment"],
+      "partOfSpeech": "VERB",
+      "content": "These are two unrelated words that can sometimes, as transitive verbs, be used interchangeably. To ferment means to cause fermentation, to agitate, to excite—or indeed to foment, which means to foster, stimulate or instigate (trouble, usually).",
+      "page": 103,
+      "message": "Use 'ferment' for agitation or excitement, 'foment' for instigating trouble. They're not always interchangeable."
+    },
+    {
+      "content": "Use fewer, not less, with individual items, which can usually be counted.",
+      "page": 103,
+      "replace": "less",
+      "replaceWith": "fewer",
+      "message": "Use 'fewer' for countable items, 'less' for uncountable quantities."
+    },
+    {
+      "word": "fief",
+      "partOfSpeech": "NOUN",
+      "content": "Fief, not fiefdom.",
+      "page": 103,
+      "replace": "fiefdom",
+      "replaceWith": "fief",
+      "message": "Use 'fief', not 'fiefdom'."
+    },
+    {
+      "content": "When enumerating your points use these, not firstly, secondly, thirdly.",
+      "page": 103,
+      "replace": ["firstly", "secondly", "thirdly"],
+      "replaceWith": ["first", "second", "third"],
+      "message": "Use 'first', 'second', 'third', etc., not 'firstly', 'secondly', 'thirdly'."
+    },
+    {
+      "word": "flatline",
+      "partOfSpeech": "VERB",
+      "content": "Some use this verb to mean no longer growing, as in a curve going flat. Others use it to mean to die, as when an electrocardiogram reports no heartbeat. These are very different things, good reason enough to avoid this verb (besides the fact that it is also a cliché).",
+      "page": 103,
+      "message": "Avoid 'flatline' due to its ambiguity between 'stop growing' and 'die'. Use more precise terms."
+    },
+    {
+      "word": ["flaunt", "flout"],
+      "partOfSpeech": "VERB",
+      "content": "Flaunt means display; flout means disdain.",
+      "page": 104,
+      "message": "Use 'flaunt' for display, 'flout' for disdain or disregard."
+    },
+    {
+      "word": "fold",
+      "content": "Use -fold only for increases, not decreases.",
+      "page": 104,
+      "message": "Use '-fold' only for increases (e.g., twofold increase), not for decreases."
+    },
+    {
+      "word": ["forego", "forgo"],
+      "partOfSpeech": "VERB",
+      "content": "Forgo means do without; it forgoes the e. Forego means go before, as the spelling indicates.",
+      "page": 104,
+      "message": "Use 'forgo' (without 'e') to mean 'do without', 'forego' to mean 'go before'."
+    },
+    {
+      "word": "forensic",
+      "partOfSpeech": "ADJ",
+      "content": "Forensic means pertaining to courts of law or, more loosely, the application of science to legal issues. Do not use forensic to mean merely very detailed.",
+      "page": 104,
+      "message": "Use 'forensic' only in legal or scientific contexts, not as a synonym for 'detailed'."
+    },
+    {
+      "word": ["former", "ex-"],
+      "content": "Ex- (and former): be careful. A communist ex-member has lost his seat; an ex-communist member has lost his party.",
+      "page": 104,
+      "message": "Be precise with 'former' and 'ex-'. 'Ex-member' means former member, 'ex-communist member' means current member, former communist."
+    },
+    {
+      "word": ["former", "latter"],
+      "content": "Avoid the use of the former and the latter whenever possible. It causes the reader to stop and backtrack, a bad thing.",
+      "page": 104,
+      "replace": ["the former", "the latter"],
+      "replaceWith": "",
+      "message": "Avoid using 'the former' and 'the latter'. Instead, repeat the specific terms for clarity."
+    },
+    {
+      "word": ["founder", "flounder"],
+      "partOfSpeech": "VERB",
+      "content": "If you flounder, you struggle clumsily or helplessly. If you founder, you stumble (if you're a horse), collapse (a building) or sink (a ship).",
+      "page": 104,
+      "message": "Use 'flounder' for struggling, 'founder' for collapsing or sinking."
+    },
+    {
+      "word": "Frankenstein",
+      "partOfSpeech": "PROPN",
+      "content": "But in case you refer to the novel, Frankenstein was not the monster but its creator.",
+      "page": 104,
+      "message": "Remember, Frankenstein is the creator, not the monster, in Mary Shelley's novel."
+    },
+    {
+      "word": "free",
+      "partOfSpeech": "ADJ",
+      "content": "Free is an adjective or an adverb, so no need to write for free: someone gets something free or for nothing.",
+      "page": 105,
+      "replace": "for free",
+      "replaceWith": ["free", "for nothing"],
+      "message": "Use 'free' or 'for nothing' instead of 'for free'."
+    },
+    {
+      "word": "fresh",
+      "partOfSpeech": "ADJ",
+      "content": "Fresh is overused journalese for new or more. A few hundred fresh bodies are being recovered every day, reported The Economist improbably two months after a tsunami had struck. Use with care.",
+      "page": 105,
+      "replace": "fresh",
+      "replaceWith": ["new", "additional"],
+      "message": "Be cautious with 'fresh'. Consider 'new' or 'additional' instead, especially in serious contexts."
+    },
+    {
+      "word": "fulsome",
+      "partOfSpeech": "ADJ",
+      "content": "This old word once meant just copious or wholehearted, usually preceding something like praise or tribute. But for centuries it has had the taint of immodest, exaggerated or insincere for many people. Avoid, unless context makes absolutely clear which you mean.",
+      "page": 105,
+      "message": "Avoid 'fulsome' due to its ambiguity between 'copious' and 'insincere'. Use more precise terms."
+    },
+    {
+      "word": "gay",
+      "partOfSpeech": ["ADJ", "NOUN"],
+      "content": "When describing someone's sexuality, it is best to use the term they use for themselves: gay (adjective only; avoid as a noun); lesbian, bisexual or straight. Gay does not refer just to men—hence gay marriage, gay pride. Reserve homosexual for behaviours and tendencies, not people.",
+      "page": 105,
+      "message": "Use 'gay' as an adjective, not a noun. Prefer terms people use for themselves. 'Gay' includes all genders."
+    },
+    {
+      "word": ["gender", "sex"],
+      "partOfSpeech": "NOUN",
+      "content": "Gender is grammatical and, by now, behaviour. Use sex when referring to the biology.",
+      "page": 105,
+      "message": "Use 'gender' for social and cultural aspects, 'sex' for biological aspects."
+    },
+    {
+      "word": "gentlemen's agreement",
+      "partOfSpeech": "NOUN",
+      "content": "Gentlemen's agreement, not gentleman's.",
+      "page": 106,
+      "replace": "gentleman's agreement",
+      "replaceWith": "gentlemen's agreement",
+      "message": "Use 'gentlemen's agreement', not 'gentleman's agreement'."
+    },
+    {
+      "word": "geography",
+      "partOfSpeech": "NOUN",
+      "content": "Geography is the science of the Earth's surface and those who live on it. Do not use it to mean place.",
+      "page": 106,
+      "message": "Use 'geography' for the science, not as a synonym for 'place' or 'location'."
+    },
+    {
+      "word": "get",
+      "partOfSpeech": "VERB",
+      "content": "Get is an adaptable verb, preferable to obtain or receive or other Latinisms. But some uses are too breezy: do not get sacked or get promoted. People are sacked or are promoted. You get the chance to do something, but you do not get to do it.",
+      "page": 106,
+      "message": "Use 'get' judiciously. Prefer it to 'obtain' or 'receive', but avoid in formal contexts like 'get sacked'."
+    },
+    {
+      "word": ["girn", "gurn"],
+      "partOfSpeech": "VERB",
+      "content": "Use girn for complain, gurn for pull a face.",
+      "page": 106,
+      "message": "Use 'girn' for complaining, 'gurn' for facial expressions."
+    },
+    {
+      "content": "Good in parts is what the curate said about an egg that was wholly bad. He was trying to be polite.",
+      "page": 106,
+      "message": "Be aware of the ironic origin of 'good in parts'. It originally referred to something entirely bad."
+    },
+    {
+      "word": ["gourmet", "gourmand"],
+      "partOfSpeech": "NOUN",
+      "content": "A gourmet is a connoisseur; a gourmand is a glutton.",
+      "page": 107,
+      "message": "Use 'gourmet' for a food expert, 'gourmand' for someone who eats to excess."
+    },
+    {
+      "word": ["governance", "government"],
+      "partOfSpeech": "NOUN",
+      "content": "Governance has come to mean the system or structure of governing in general. Government is the specific instance of this in particular places",
+      "page": 107,
+      "message": "Use 'governance' for general systems of rule, 'government' for specific administrations."
+    },
+    {
+      "word": ["grisly", "gristly", "grizzly", "grizzling"],
+      "content": "Grisly is frightful. Gristly is like school stew. Grizzly, a kind of bear, is also an old word for grey, but grizzled is better for that purpose. Grizzling is grumbling.",
+      "page": 107,
+      "message": "Distinguish between 'grisly' (horrific), 'gristly' (tough), 'grizzly' (bear or grey), and 'grizzling' (complaining)."
+    },
+    {
+      "word": "halve",
+      "partOfSpeech": "VERB",
+      "content": "Halve is a transitive verb, so deficits, for example, can double but should not halve. They must be halved or fall by half.",
+      "page": 107,
+      "message": "Use 'halve' transitively. Say 'deficits were halved' or 'fell by half', not 'deficits halved'."
+    },
+    {
+      "word": "healthy",
+      "partOfSpeech": "ADJ",
+      "content": "Overused (outside medicine and biology). If you think something is desirable or good, say so. If a company is experiencing good (though not spectacular) profits or growth, try robust, strong or impressive.",
+      "page": 107,
+      "replace": "healthy",
+      "replaceWith": ["robust", "strong", "impressive"],
+      "message": "Consider using 'robust', 'strong', or 'impressive' instead of 'healthy' for non-medical contexts."
+    },
+    {
+      "word": ["heave", "heaved", "hove"],
+      "partOfSpeech": "VERB",
+      "content": "The past participle of heave is heaved. (The past-tense form hove is archaic, or nautical). To hove is to swell, rise, loiter or linger, but is archaic. Use hover or float.",
+      "page": 107,
+      "replace": ["hove"],
+      "replaceWith": ["heaved", "hover", "float"],
+      "message": "Use 'heaved' as the past participle of 'heave'. Avoid 'hove' except in nautical contexts."
+    },
+    {
+      "word": ["heresy", "apostasy", "blasphemy"],
+      "partOfSpeech": "NOUN",
+      "content": "If you abandon your religion, you commit apostasy. If that religion is the prevailing one in your community, and your beliefs are contrary to its orthodoxy, you commit heresy. Speech deemed offensively irreverent of deities and cherished religious beliefs is blasphemy.",
+      "page": 107,
+      "message": "Use 'apostasy' for abandoning religion, 'heresy' for unorthodox beliefs, and 'blasphemy' for irreverent speech."
+    },
+    {
+      "word": ["historic", "historical"],
+      "partOfSpeech": "ADJ",
+      "content": "Historic is best reserved for objects, events, eras and so on that may come to be considered notable in history. Historical should be used to mean relating to the past, or to the scholarly study of the past.",
+      "page": 107,
+      "message": "Use 'historic' for notable events, 'historical' for general past events or their study."
+    },
+    {
+      "word": ["hoard", "horde"],
+      "partOfSpeech": "NOUN",
+      "content": "A hoard is a stash of something valuable. A horde is a crowd, often a disorderly one. Few secreted treasures (hoards) are multitudes on the move (hordes).",
+      "page": 108,
+      "message": "Use 'hoard' for a collection of valuables, 'horde' for a large group of people."
+    },
+    {
+      "word": "Hobson's choice",
+      "content": "Hobson's choice is not the lesser of two evils. It is take it or leave it, or no choice at all.",
+      "page": 108,
+      "message": "Use 'Hobson's choice' only for 'take it or leave it' situations, not for choosing between undesirable options."
+    },
+    {
+      "word": "hoi polloi",
+      "content": "Greek for \"the many\". \"Hoi\" already means the, so classically minded readers see the hoi polloi as redundant. But Hoi polloi were waiting outside looks bizarre to many others. A good reason to skip this phrase. Try an alternative to the masses.",
+      "page": 108,
+      "replace": "hoi polloi",
+      "replaceWith": ["the masses", "the general public", "ordinary people"],
+      "message": "Consider alternatives to 'hoi polloi' like 'the masses' or 'the general public' to avoid redundancy and confusion."
+    },
+    {
+      "word": "holistic",
+      "partOfSpeech": "ADJ",
+      "content": "If you mean considering a person or subject as a whole, holistic is just about acceptable. But if tempted to use it in other contexts, take a holistic approach to the English lexicon and see if something else will work. If you merely mean wide-ranging, say that.",
+      "page": 108,
+      "replace": "holistic",
+      "replaceWith": ["comprehensive", "wide-ranging"],
+      "message": "Use 'holistic' cautiously. Consider 'comprehensive' or 'wide-ranging' as alternatives."
+    },
+    {
+      "word": "home",
+      "partOfSpeech": "NOUN",
+      "content": "As a generic term, home can be usefully vague if some of them were flats or chalets. If possible, though, be precise and write house or shack or castle: home is where the heart is.",
+      "page": 108,
+      "message": "Be specific when possible (e.g., 'house', 'apartment') instead of the generic 'home'."
+    },
+    {
+      "word": "home in",
+      "content": "This phrase does not involve sharpening a knife, so it is not hone in on. You home in on something, like a homing pigeon does.",
+      "page": 108,
+      "replace": "hone in on",
+      "replaceWith": "home in on",
+      "message": "Use 'home in on', not 'hone in on'."
+    },
+    {
+      "word": ["homogeneous", "homogenous"],
+      "partOfSpeech": "ADJ",
+      "content": "Homogeneous means of the same kind or nature, has five syllables and a second e, and is almost certainly the word you want. Homogenous means similar because of common descent, and is a near synonym of homogenetic or homologous.",
+      "page": 109,
+      "message": "Use 'homogeneous' for 'of the same kind'. 'Homogenous' is a biological term for similar due to common descent."
+    },
+    {
+      "word": "homosexual",
+      "content": "Homosexual comes from the Greek word homos (same), not the Latin word homo (man). So it applies as much to women as to men. But use it to refer to acts or attractions, not people, who may or may not consider themselves gay (qv).",
+      "page": 109,
+      "message": "Use 'homosexual' for acts or attractions, not people. Prefer terms individuals use for themselves."
+    },
+    {
+      "word": "hopefully",
+      "partOfSpeech": "ADV",
+      "content": "It is outmoded to object to the use of hopefully to mean it is hoped that. In The Economist, however, we may well begin an article hopefully, but (even though it is not grammatically wrong) we do not write Hopefully, it will be finished by Wednesday. Try With luck, if all goes well, it is hoped that...",
+      "page": 109,
+      "replace": "Hopefully,",
+      "replaceWith": ["With luck,", "It is hoped that"],
+      "message": "Consider alternatives to 'Hopefully,' at the start of a sentence, such as 'With luck,' or 'It is hoped that'."
+    },
+    {
+      "word": ["hypothermia", "hyperthermia"],
+      "partOfSpeech": "NOUN",
+      "content": "Hypothermia is what kills old folk in winter. If you say it is hyperthermia, that means they have been carried off by heat stroke.",
+      "page": 109,
+      "message": "Use 'hypothermia' for dangerously low body temperature, 'hyperthermia' for dangerously high."
+    },
+    {
+      "word": ["immanent", "imminent"],
+      "partOfSpeech": "ADJ",
+      "content": "Immanent means pervading or inherent, and originates in theology. You probably want imminent, which means threatening or impending.",
+      "page": 109,
+      "message": "Use 'immanent' for inherent qualities, 'imminent' for impending events."
+    },
+    {
+      "word": "immolate",
+      "partOfSpeech": "VERB",
+      "content": "Immolate means to sacrifice, usually but not necessarily by burning, though this is what any reader will understand by self-immolation.",
+      "page": 109,
+      "message": "Use 'immolate' for sacrifice, typically by fire. Be aware it's often understood as self-sacrifice by burning."
+    },
+    {
+      "word": "important",
+      "partOfSpeech": "ADJ",
+      "content": "If something is important, say why and to whom. Use sparingly.",
+      "page": 110,
+      "message": "When using 'important', specify why and to whom. Use the word judiciously."
+    },
+    {
+      "word": ["impracticable", "impractical"],
+      "partOfSpeech": "ADJ",
+      "content": "If something is impracticable, it cannot be done. If it's impractical, it is not worth trying to do it.",
+      "page": 110,
+      "message": "Use 'impracticable' for impossible tasks, 'impractical' for inadvisable ones."
+    },
+    {
+      "word": "inchoate",
+      "partOfSpeech": "ADJ",
+      "content": "Inchoate means not yet fully developed. It is not the same as incoherent or (despite the deceptively similar spelling) chaotic.",
+      "page": 110,
+      "message": "Use 'inchoate' only for underdeveloped things, not as a synonym for 'incoherent' or 'chaotic'."
+    },
+    {
+      "word": "indicted",
+      "partOfSpeech": "VERB",
+      "content": "Be careful. Someone you are tempted to call an indicted war criminal may be acquitted, and in that case, legally no war criminal at all. Prefer indicted for war crimes.",
+      "page": 110,
+      "replace": "indicted war criminal",
+      "replaceWith": "person indicted for war crimes",
+      "message": "Use 'person indicted for war crimes' instead of 'indicted war criminal' to avoid presumption of guilt."
+    },
+    {
+      "word": "individual",
+      "partOfSpeech": "NOUN",
+      "content": "Used occasionally, the noun individual can be a useful colloquial term for chap or bloke or guy. Used indiscriminately for person or, in the plural, people, it becomes bureaucratic.",
+      "page": 110,
+      "replace": "individual",
+      "replaceWith": ["person", "people"],
+      "message": "Prefer 'person' or 'people' to 'individual' unless in casual speech."
+    },
+    {
+      "word": ["initial", "initially"],
+      "partOfSpeech": ["ADJ", "ADV"],
+      "content": "Prefer first, at first.",
+      "page": 110,
+      "replace": ["initial", "initially"],
+      "replaceWith": ["first", "at first"],
+      "message": "Consider using 'first' or 'at first' instead of 'initial' or 'initially'."
+    },
+    {
+      "word": "interesting",
+      "partOfSpeech": "ADJ",
+      "content": "Like important (qv) and funny, interesting makes assumptions that may not be shared by the reader. If something really is interesting, you probably do not need to say so.",
+      "page": 111,
+      "message": "Avoid using 'interesting' unless absolutely necessary. Let the content speak for itself."
+    },
+    {
+      "word": "investigations",
+      "partOfSpeech": "NOUN",
+      "content": "Investigations of, not into.",
+      "page": 111,
+      "replace": "investigations into",
+      "replaceWith": "investigations of",
+      "message": "Use 'investigations of', not 'investigations into'."
+    },
+    {
+      "word": "ironically",
+      "partOfSpeech": "ADV",
+      "content": "It is often used today as \"contradictory outcome of events involving mockery by fate or fortune.\" That's OK. It should not be used to mean merely surprisingly or coincidentally.",
+      "page": 111,
+      "message": "Use 'ironically' for contradictory outcomes, not just for surprising or coincidental events."
+    },
+    {
+      "word": ["Islam", "Islamism", "jihadist", "mujahideen"],
+      "content": "Islamic means relating to Islam. Islamism encompasses a wide range of views. Avoid referring to Islamic State with the definite article. Jihad is the Arabic word for striving. For modern Muslims, it may mean different things. Someone engaged in jihad is a mujahid.",
+      "page": 111,
+      "message": "Be precise with terms related to Islam. 'Islamic' relates to the religion, 'Islamism' to political ideologies. Use 'jihad' and 'mujahideen' carefully."
+    },
+    {
+      "word": "issues",
+      "partOfSpeech": "NOUN",
+      "content": "Do not use issue as a synonym for problem.",
+      "page": 112,
+      "replace": "issues",
+      "replaceWith": "problems",
+      "message": "Use 'problems' instead of 'issues' when referring to difficulties or challenges."
+    },
+    {
+      "word": "jejune",
+      "partOfSpeech": "ADJ",
+      "content": "Jejune means insipid, unsatisfying, lacking in substance.",
+      "page": 112,
+      "message": "Use 'jejune' to mean lacking substance or unsatisfying, not as a general negative descriptor."
+    },
+    {
+      "word": ["jib", "gibe", "gybe"],
+      "content": "Jib (noun): sail or boom of a crane. Jib (verb): to balk or shy. Gibe (noun): taunt. Gibe (verb): to scoff or flout. Gybe (verb): to alter course. Don't jibe.",
+      "page": 112,
+      "message": "Distinguish between 'jib' (sail/crane part or to balk), 'gibe' (taunt), and 'gybe' (alter course). Avoid 'jibe'."
+    },
+    {
+      "word": "judgment call",
+      "partOfSpeech": "NOUN",
+      "content": "Prefer judgment or matter of judgment.",
+      "page": 113,
+      "replace": "judgment call",
+      "replaceWith": ["judgment", "matter of judgment"],
+      "message": "Consider using 'judgment' or 'matter of judgment' instead of 'judgment call'."
+    },
+    {
+      "word": "key",
+      "partOfSpeech": "ADJ",
+      "content": "Do not, however, use it as a free-standing adjective, as in The choice of running-mate is key.",
+      "page": 113,
+      "message": "Avoid using 'key' as a standalone adjective. Rephrase to use it attributively or find an alternative."
+    },
+    {
+      "word": "lag",
+      "partOfSpeech": "VERB",
+      "content": "If you lag transitively, you may be insulating a pipe or a loft. But anything failing to keep up with a front-runner, rate of growth, fourth-quarter profit or whatever is lagging behind it.",
+      "page": 113,
+      "replace": "lag",
+      "replaceWith": "lag behind",
+      "message": "Use 'lag behind' when describing something falling behind, not just 'lag'."
+    },
+    {
+      "word": ["lama", "llama"],
+      "partOfSpeech": "NOUN",
+      "content": "Lama: priest. Llama: beast.",
+      "page": 113,
+      "message": "Use 'lama' for the Buddhist priest, 'llama' for the animal."
+    },
+    {
+      "word": "last",
+      "content": "For most recent, as in the last issue of The Economist, prefer last week's or the latest issue instead. Last year, in 2023, means 2022. If you mean the 12 months up to the time of writing, write the past year. Last week is best avoided, prefer a date or recently.",
+      "page": 113,
+      "replace": ["last", "last week"],
+      "replaceWith": ["latest", "recent", "on [specific date]"],
+      "message": "Be precise with time references. Use 'latest' for most recent, specific dates when possible, and 'the past year' for the previous 12 months."
+    },
+    {
+      "content": "When it is necessary to use a Latin name for animals, plants, etc, follow the standard practice.",
+      "page": 114,
+      "message": "Use standard scientific notation for Latin names of species."
+    },
+    {
+      "content": "It is generally best (and usually easy) to translate them.",
+      "page": 114,
+      "message": "Translate Latin phrases when possible for clarity."
+    },
+    {
+      "word": ["per capita", "per annum"],
+      "content": "Replace per capita with per person, per annum with per year",
+      "page": 114,
+      "replace": ["per capita", "per annum"],
+      "replaceWith": ["per person", "per year"],
+      "message": "Use 'per person' instead of 'per capita', and 'per year' instead of 'per annum'."
+    },
+    {
+      "word": ["lay", "lie"],
+      "partOfSpeech": "VERB",
+      "content": "to place something: I lay, I laid, I have laid; to recline: I lie, I lay, I have lain; to tell an untruth: I lie, I lied, I have lied",
+      "page": 114,
+      "message": "Use 'lay' (laid, laid) for placing something, 'lie' (lay, lain) for reclining, and 'lie' (lied, lied) for telling an untruth."
+    },
+    {
+      "word": "legacy",
+      "partOfSpeech": "NOUN",
+      "content": "Legacy means a bequest (will) or outliving something's original purpose. If you use legacy in one of these senses, make sure the meaning is clear, or find another word.",
+      "page": 114,
+      "message": "Use 'legacy' only for bequests or things outliving their purpose. Be clear or choose a different word."
+    },
+    {
+      "word": "leverage",
+      "partOfSpeech": "NOUN",
+      "content": "If you cannot find a way of avoiding the word leverage, explain what it means.",
+      "page": 115,
+      "message": "Avoid 'leverage' if possible. If used, explain its specific meaning in context."
+    },
+    {
+      "word": "LGBT+",
+      "content": "When referring to advocates of rights for lesbians, gay men, bisexuals, transgender people and other identities, you can use LGBT+ as an umbrella term. Because LGBT + is a broad term, usually it is most accurate to refer to a specific group of people.",
+      "page": 115,
+      "message": "Use 'LGBT+' as an umbrella term, but be specific when possible about which groups you're referring to."
+    },
+    {
+      "word": ["like", "unlike"],
+      "content": "Like governs nouns and pronouns. Many people use it to govern prepositions and verbs too, but in writing as is better. Try to use as if or as though. Such as introduces examples, like introduces resemblances, and the two overlap.",
+      "page": 115,
+      "replace": "like",
+      "replaceWith": ["as", "as if", "as though", "such as"],
+      "message": "Use 'like' for nouns and pronouns, 'as' for verbs and prepositions. Use 'as if' or 'as though' for hypotheticals, 'such as' for examples."
+    },
+    {
+      "word": "likely",
+      "partOfSpeech": "ADJ",
+      "content": "Likely is still predominantly an adjective in British English. Avoid adverbial constructions such as He will likely announce the date...",
+      "page": 116,
+      "replace": "likely",
+      "replaceWith": ["probably", "is likely to"],
+      "message": "In British English, use 'likely' as an adjective. Use 'probably' or 'is likely to' for adverbial constructions."
+    },
+    {
+      "word": "literally",
+      "partOfSpeech": "ADV",
+      "content": "Literally is still holding its ground meaning \"not figuratively\". Do not write it was literally raining cats and dogs unless something very strange has happened.",
+      "page": 116,
+      "message": "Use 'literally' only when you mean 'actually, without exaggeration', not for emphasis in figurative expressions."
+    },
+    {
+      "word": ["affordable", "important", "interesting", "matters", "relevant", "sustainable"],
+      "content": "Certain words, in certain contexts come with assumptions that may not be universal: affordable (qv), important (qv), (in)appropriate, interesting (qv), matters (as in \"This matters\"), relevant, sustainable (qv). If it is interesting or relevant, say why and to whom.",
+      "page": 116,
+      "message": "Be specific when using words like 'affordable', 'important', 'interesting', 'relevant', or 'sustainable'. Explain why or to whom."
+    },
+    {
+      "word": "locate",
+      "partOfSpeech": "VERB",
+      "content": "Locate, in any of its forms, can usually be replaced.",
+      "page": 116,
+      "replace": "locate",
+      "replaceWith": ["find", "place"],
+      "message": "Consider using 'find' or 'place' instead of 'locate'."
+    },
+    {
+      "word": "logistics",
+      "partOfSpeech": "NOUN",
+      "content": "The science of distribution of goods by road, rail and air.",
+      "page": 116,
+      "message": "Use 'logistics' specifically for the distribution of goods, not as a general term for arrangements."
+    },
+    {
+      "word": ["luxurious", "luxuriant"],
+      "partOfSpeech": "ADJ",
+      "content": "Luxurious means indulgently pleasurable. Luxuriant means exuberant or profuse.",
+      "page": 117,
+      "message": "Use 'luxurious' for indulgent pleasure, 'luxuriant' for abundance or profusion."
+    },
+    {
+      "word": "majority",
+      "partOfSpeech": "NOUN",
+      "content": "A rule for majority and verb agreement: When used in an abstract sense, it takes the singular; when it is used to denote the elements making up the majority, it should be plural.",
+      "page": 117,
+      "message": "Use singular verbs with 'majority' in abstract sense, plural when referring to the individuals making up the majority."
+    },
+    {
+      "word": "media",
+      "partOfSpeech": "NOUN",
+      "content": "Prefer press if the context allows it. If you have to use media, remember they are plural.",
+      "page": 117,
+      "replace": "media",
+      "replaceWith": "press",
+      "message": "Prefer 'press' to 'media' when possible. If using 'media', treat it as plural."
+    },
+    {
+      "word": ["mendacious", "mendicant"],
+      "partOfSpeech": "ADJ",
+      "content": "Mendacious means lying. Mendicant means a beggar or begging.",
+      "page": 117,
+      "message": "Use 'mendacious' for lying or dishonest, 'mendicant' for begging or a beggar."
+    },
+    {
+      "word": "meta-",
+      "content": "The prefix meta-, from the Greek word for with, beyond or after, has long been used before the name of a science to designate a higher science of the same nature but dealing with ulterior problems. Do not follow the trend of adding meta- to anything to lend it gravitas.",
+      "page": 117,
+      "message": "Use 'meta-' only in established scientific contexts, not as a general prefix for importance."
+    },
+    {
+      "word": ["mete", "meet"],
+      "content": "mete out punishment (to distribute); meet a deadline (to reach); meet a person (to encounter)",
+      "page": 118,
+      "message": "Use 'mete out' for distributing (usually punishment), 'meet' for reaching deadlines or encountering people."
+    },
+    {
+      "word": ["meter", "metre", "metrics"],
+      "content": "A meter is a gadget for measuring. A metre is a unit of length. Metrics is the theory of measurement or the study of metrical structures in verse. Do not use metrics as a synonym for measures or statistics.",
+      "page": 118,
+      "replace": "metrics",
+      "replaceWith": ["measures", "statistics"],
+      "message": "Use 'meter' for measuring devices, 'metre' for length, and avoid 'metrics' as a general term for measures or statistics."
+    },
+    {
+      "word": "migrate",
+      "partOfSpeech": "VERB",
+      "content": "Birds, animals and people migrate, intransitively, from place to place. copying computer files or bureaucrats relocating their offices, transitively move them.",
+      "page": 118,
+      "message": "Use 'migrate' intransitively for natural movement. For deliberate relocation of things or people, use 'move'."
+    },
+    {
+      "word": "military",
+      "partOfSpeech": "NOUN",
+      "content": "Try to avoid military as a noun, writing the army or another service instead. Be specific when saying \"served in the military\".",
+      "page": 118,
+      "replace": "the military",
+      "replaceWith": ["the army", "the navy", "the air force"],
+      "message": "Prefer specific service names (army, navy, air force) over 'the military'. Be precise when referring to military service."
+    },
+    {
+      "word": ["mitigate", "militate"],
+      "partOfSpeech": "VERB",
+      "content": "Mitigates mollifies, tempers or helps to excuse; militates tells (against).",
+      "page": 118,
+      "message": "Use 'mitigate' for lessening effects, 'militate' for influencing against something."
+    },
+    {
+      "word": "momentarily",
+      "partOfSpeech": "ADV",
+      "content": "Use it to mean for a moment. If you want in a moment, use soon.",
+      "page": 118,
+      "replace": "momentarily",
+      "replaceWith": ["for a moment", "soon"],
+      "message": "Use 'momentarily' to mean 'for a moment', not 'soon'. For 'in a moment', use 'soon'."
+    },
+    {
+      "word": ["monopoly", "monopsony"],
+      "partOfSpeech": "NOUN",
+      "content": "A monopolist is a sole seller; a sole buyer is a monopsonist.",
+      "page": 118,
+      "message": "Use 'monopoly' for a single seller, 'monopsony' for a single buyer."
+    },
+    {
+      "word": "moot",
+      "partOfSpeech": "ADJ",
+      "content": "Moot, in British English, means arguable, doubtful or open to debate. Americans use it to mean hypothetical, ie, of no practical significance. Be clear, or simply reword.",
+      "page": 119,
+      "message": "In British English, use 'moot' for debatable issues. In American English, it means hypothetical. Consider rewording for clarity."
+    },
+    {
+      "word": "mortar",
+      "partOfSpeech": "NOUN",
+      "content": "If not a vessel in which herbs, etc, are pounded with a pestle, a mortar is a piece of artillery for throwing a shell, bomb or lifeline. You are typically hit by a mortar shell, not a mortar.",
+      "page": 119,
+      "message": "Use 'mortar' for the weapon, 'mortar shell' for the projectile. People are hit by mortar shells, not mortars."
+    },
+    {
+      "word": "move",
+      "partOfSpeech": "NOUN",
+      "content": "Do not use the noun move if you mean decision, bid, deal, action or something more precise. But use the verb move rather than relocate.",
+      "page": 119,
+      "replace": ["move", "relocate"],
+      "replaceWith": ["decision", "bid", "deal", "action", "move"],
+      "message": "Avoid 'move' as a noun for decisions or actions. Use the verb 'move' instead of 'relocate'."
+    },
+    {
+      "word": "multiple",
+      "partOfSpeech": "ADJ",
+      "content": "Do you mean a number of or several or many when you write there were multiple offers? If so, use one of those.",
+      "page": 119,
+      "replace": "multiple",
+      "replaceWith": ["several", "many", "numerous"],
+      "message": "Consider using 'several', 'many', or 'numerous' instead of 'multiple' for clarity."
+    },
+    {
+      "content": "Named after, not named for.",
+      "page": 119,
+      "replace": "named for",
+      "replaceWith": "named after",
+      "message": "Use 'named after', not 'named for'."
+    },
+    {
+      "word": ["nauseate", "nauseous"],
+      "partOfSpeech": ["VERB", "ADJ"],
+      "content": "Write nauseating for sick-making. Use either nauseous or (if there is any risk of ambiguity) nauseated for feeling sick.",
+      "page": 119,
+      "message": "Use 'nauseating' for things that cause nausea, 'nauseous' or 'nauseated' for feeling sick."
+    },
+    {
+      "word": "noisome",
+      "partOfSpeech": "ADJ",
+      "content": "Noisome means noxious, harmful or offensive to the eyes or nose—but not the ears: that is noisy.",
+      "page": 119,
+      "message": "Use 'noisome' for things offensive to smell or sight, not for loud things."
+    },
+    {
+      "word": ["none", "neither", "nor"],
+      "content": "Try to use none with a singular verb, especially when the sense indicates that each item is to be considered individually. But when a group is considered as a group, the plural is acceptable. Neither a nor b (or either) does take singular agreement, unless b is plural. Nor should not be preceded by and. You may, however, start a sentence with it.",
+      "page": 120,
+      "message": "Use singular verbs with 'none' for individual items, plural for groups. 'Neither...nor' takes singular verbs unless the second item is plural. Don't use 'and' before 'nor'."
+    },
+    {
+      "word": "number",
+      "partOfSpeech": "NOUN",
+      "content": "The number is (staggering, unimpressive)..., where number is synonymous with a figure. But A number are (opposed, upset).",
+      "page": 120,
+      "message": "Use singular verbs with 'the number', plural with 'a number'."
+    },
+    {
+      "word": "one",
+      "partOfSpeech": "PRON",
+      "content": "Try to avoid one as a personal pronoun. You will often do instead.",
+      "page": 120,
+      "replace": "one",
+      "replaceWith": "you",
+      "message": "Consider using 'you' instead of 'one' as a personal pronoun."
+    },
+    {
+      "word": "only",
+      "content": "Put only as close as you can to the words it qualifies, to avoid ambiguity:",
+      "page": 120,
+      "message": "Place 'only' next to the word or phrase it modifies to avoid ambiguity."
+    },
+    {
+      "word": "onto",
+      "partOfSpeech": "ADP",
+      "content": "On and to should be run together when they are closely linked. If, however, the sense of the sentence makes the on closer to the preceding word, or the to closer to the succeeding word, than they are to each other, keep them separate",
+      "page": 120,
+      "message": "Use 'onto' when 'on' and 'to' are closely linked. Keep them separate when they relate more closely to different parts of the sentence."
+    },
+    {
+      "word": ["ophthalmology", "optometry", "optics"],
+      "partOfSpeech": "NOUN",
+      "content": "Ophthalmology is the branch of medicine concerning the health of the eyes. Optometry is the measurement of their refractive power, or of lenses, as when you get glasses. Optics is the science of light. Do not use it to glamorise mere impressions or appearances.",
+      "page": 121,
+      "message": "Use 'ophthalmology' for eye health, 'optometry' for vision measurement, and 'optics' only for the science of light, not for appearances or impressions."
+    },
+    {
+      "word": "overseas",
+      "partOfSpeech": "ADV",
+      "content": "Overseas should not be used to mean merely abroad or foreign.",
+      "page": 121,
+      "message": "Use 'overseas' specifically for places across seas, not as a general term for 'abroad' or 'foreign'. Consider more precise terms based on the context."
+    },
+    {
+      "word": "oxymoron",
+      "partOfSpeech": "NOUN",
+      "content": "An oxymoron is traditionally deliberate, for rhetorical effect. For the unintentionally contrasting juxtaposition, try contradiction in terms.",
+      "page": 121,
+      "replace": "oxymoron",
+      "replaceWith": "contradiction in terms",
+      "message": "Reserve 'oxymoron' for intentional rhetorical devices. For unintentional contradictions, use 'contradiction in terms'."
+    },
+    {
+      "word": ["palate", "pallet", "palette"],
+      "partOfSpeech": "NOUN",
+      "content": "Your palate is the roof of your mouth (metaphorically your capacity to appreciate food and drink). A pallet is a mattress on which you may sleep or a wooden frame for use with fork-lift trucks. Mix paints on a palette.",
+      "page": 121,
+      "message": "Distinguish between 'palate' (taste), 'pallet' (platform or mattress), and 'palette' (for mixing paints). Use each precisely in its correct context."
+    },
+    {
+      "word": "parse",
+      "partOfSpeech": "VERB",
+      "content": "Parse, meaning to describe a word's part of speech, case, number, gender and so on, or to describe the structural relationships of a sentence. Unless you really mean close linguistic analysis, choose a plainer word.",
+      "page": 121,
+      "replace": "parse",
+      "replaceWith": ["analyze", "examine", "interpret"],
+      "message": "Use 'parse' only for linguistic analysis. For general analysis, consider 'analyze', 'examine', or 'interpret'."
+    },
+    {
+      "word": "peer",
+      "partOfSpeech": "NOUN",
+      "content": "A peer is not a contemporary, colleague or counterpart but an equal.",
+      "page": 121,
+      "replace": ["contemporary", "colleague", "counterpart"],
+      "replaceWith": "equal",
+      "message": "Use 'peer' only to mean 'equal', not for colleagues or contemporaries in general."
+    },
+    {
+      "word": ["picaresque", "picturesque"],
+      "partOfSpeech": "ADJ",
+      "content": "Picaresque means roguish or knavish, often in adventures and originally in the context of fiction. Picturesque means pretty as (in) a picture.",
+      "page": 122,
+      "message": "Use 'picaresque' for roguish adventures, especially in fiction. Use 'picturesque' for visually appealing scenes or descriptions."
+    },
+    {
+      "word": "populace",
+      "partOfSpeech": "NOUN",
+      "content": "This term means the common people (hoi polloi, qv) to many. Use population if you mean everyone.",
+      "page": 122,
+      "replace": "populace",
+      "replaceWith": "population",
+      "message": "Use 'population' when referring to all inhabitants. Reserve 'populace' for specific references to the common people, but consider if a more precise term would be clearer."
+    },
+    {
+      "word": "positive",
+      "partOfSpeech": "ADJ",
+      "content": "Do not over-use where other words will do.",
+      "page": 122,
+      "replace": "positive",
+      "replaceWith": ["good", "beneficial", "advantageous"],
+      "message": "Consider more specific alternatives to 'positive' such as 'good', 'beneficial', or 'advantageous' depending on the context."
+    },
+    {
+      "content": "Use the possessive form consistently. Either a friend of John or friend of John's, but do not mix.",
+      "page": 122,
+      "message": "Be consistent with possessive forms. Choose either 'a friend of John' or 'a friend of John's', but don't mix the two forms in the same piece of writing."
+    },
+    {
+      "content": "Take care to compare possessives with possessives. Let it make sense.",
+      "page": 122,
+      "message": "When comparing possessives, ensure the comparison is logical and grammatically parallel. For example, 'John's car is faster than Mary's', not 'John's car is faster than Mary'."
+    },
+    {
+      "word": ["power", "energy"],
+      "partOfSpeech": "NOUN",
+      "content": "Power refers to the rate at which energy is transferred. Typically measured in watts. Energy measures power applied over time, and so in these contexts is measured in watt-hours, megawatt-hours, etc",
+      "page": 122,
+      "message": "Use 'power' for rate of energy transfer (measured in watts), and 'energy' for power over time (measured in watt-hours). Be precise in scientific or technical contexts."
+    },
+    {
+      "word": ["practicable", "practical"],
+      "partOfSpeech": "ADJ",
+      "content": "Practicable means feasible. Practical means useful or handy.",
+      "page": 123,
+      "message": "Use 'practicable' for things that can be done or put into practice. Use 'practical' for things that are useful or sensible in practice."
+    },
+    {
+      "word": "pre-",
+      "content": "Pre- is often unnecessary. If it seems to be doing something useful, try making use of a word such as already or earlier.",
+      "page": 123,
+      "replace": "pre-",
+      "replaceWith": ["already", "earlier", "before"],
+      "message": "Consider if 'pre-' is necessary. Often, words like 'already', 'earlier', or 'before' can convey the same meaning more clearly."
+    },
+    {
+      "word": ["precipitate", "precipitous"],
+      "partOfSpeech": "ADJ",
+      "content": "Precipitate (adj) means rush, hasty or headlong. Precipitous means sheer or like a precipice.",
+      "page": 123,
+      "message": "Use 'precipitate' for hasty actions or decisions. Use 'precipitous' for steep drops or sudden declines."
+    },
+    {
+      "word": "presently",
+      "partOfSpeech": "ADV",
+      "content": "Presently means soon in Britain and now in America. So use soon or now instead.",
+      "page": 123,
+      "replace": "presently",
+      "replaceWith": ["soon", "now"],
+      "message": "Avoid 'presently' due to its ambiguity between British (soon) and American (now) usage. Use 'soon' or 'now' for clarity."
+    },
+    {
+      "word": ["press", "pressure", "pressurise"],
+      "content": "Pressurise is what you want in an aircraft, but not in an argument or encounter where persuasion is being employed. The verb you want there is press (use pressure only as a noun).",
+      "page": 123,
+      "replace": ["pressurise", "pressure"],
+      "replaceWith": "press",
+      "message": "Use 'pressurise' only for physical pressure (as in aircraft). For persuasion or influence, use 'press' as a verb and 'pressure' as a noun."
+    },
+    {
+      "word": ["prevaricate", "procrastinate"],
+      "partOfSpeech": "VERB",
+      "content": "Prevaricate means evade the truth; procrastinate means delay",
+      "page": 123,
+      "message": "Use 'prevaricate' for evading the truth or being deliberately ambiguous. Use 'procrastinate' for delaying or postponing actions."
+    },
+    {
+      "word": "process",
+      "partOfSpeech": "NOUN",
+      "content": "Process is usually unnecessary.",
+      "page": 124,
+      "message": "Consider omitting 'process' in phrases where it doesn't add meaning. Often, the action itself (e.g., 'decision-making' rather than 'decision-making process') is sufficient."
+    },
+    {
+      "word": "prodigal",
+      "partOfSpeech": "ADJ",
+      "content": "If you are prodigal, that does not mean you are welcomed home, forgiven or taken back without recrimination.",
+      "page": 124,
+      "message": "Use 'prodigal' to mean wastefully extravagant, not for someone who is welcomed back or forgiven."
+    },
+    {
+      "word": "profession",
+      "partOfSpeech": "NOUN",
+      "content": "By convention, professions are those like law, medicine and accounting, which require of their members some degree of learning, usually tested in an examination, and are regulated by a responsible body. Journalists and bankers are therefore not members of a profession. Try trade.",
+      "page": 124,
+      "replace": "profession",
+      "replaceWith": "trade",
+      "message": "Reserve 'profession' for regulated occupations like law or medicine. For other occupations, consider using 'trade' or a more specific term."
+    },
+    {
+      "word": "propaganda",
+      "partOfSpeech": "NOUN",
+      "content": "Propaganda (which is singular) means a systematic effort to spread doctrine or opinions. It is not a synonym for lies.",
+      "page": 124,
+      "message": "Use 'propaganda' for systematic spread of information or ideas, not as a synonym for lies or misinformation."
+    },
+    {
+      "word": "protagonist",
+      "partOfSpeech": "NOUN",
+      "content": "Protagonist means the chief actor or combatant. It can only be one person.",
+      "page": 124,
+      "message": "Use 'protagonist' only for the main character or central figure, not for multiple people or supporting characters."
+    },
+    {
+      "word": "pry",
+      "partOfSpeech": "VERB",
+      "content": "Use prise, unless you mean peer or peep.",
+      "page": 124,
+      "replace": "pry",
+      "replaceWith": "prise",
+      "message": "Use 'prise' for forcing something open. Use 'pry' only when you mean to look closely or inquire nosily."
+    },
+    {
+      "word": ["raise", "raze"],
+      "partOfSpeech": "VERB",
+      "content": "To raise means to lift. To raze means pretty much the opposite: to lay level (with the ground) or erase. No need to say razed to the ground.",
+      "page": 125,
+      "message": "Use 'raise' for lifting or increasing. Use 'raze' for complete destruction, without adding 'to the ground'."
+    },
+    {
+      "word": ["rebut", "refute"],
+      "partOfSpeech": "VERB",
+      "content": "Rebut means meet in argument. Refute is stronger. It means disprove. Neither should be used as a synonym for deny.",
+      "page": 125,
+      "message": "Use 'rebut' for arguing against, 'refute' for disproving completely. Don't use either as a synonym for 'deny'."
+    },
+    {
+      "word": ["red", "blue"],
+      "content": "Be careful in political context. American usage (red for Republican, blue for Democratic) is the opposite of almost everyone else's, where red is left-wing.",
+      "page": 125,
+      "message": "Be aware of differing political color associations. Specify the context (e.g., 'US politics') when using red and blue politically."
+    },
+    {
+      "word": "redact",
+      "partOfSpeech": "VERB",
+      "content": "Redact is used to mean obscure, blot out, obliterate. Use it only in this legal/technical sense.",
+      "page": 125,
+      "message": "Use 'redact' only in legal or technical contexts for removing sensitive information. For general editing, use 'edit' or 'revise'."
+    },
+    {
+      "word": "redolent",
+      "partOfSpeech": "ADJ",
+      "content": "Redolent means smelling of, fragrant.",
+      "page": 125,
+      "message": "Use 'redolent' primarily for smells or fragrances, or metaphorically for strong suggestions of something."
+    },
+    {
+      "word": ["reduce", "diminish", "lessen", "shrink"],
+      "partOfSpeech": "VERB",
+      "content": "These words are not interchangeable. Reduce is transitive, so must be followed by a noun. Diminish and shrink can be transitive or intransitive. So can lessen, though it is usually used transitively.",
+      "page": 125,
+      "message": "Use 'reduce' with a direct object. 'Diminish' and 'shrink' can be used with or without an object. 'Lessen' is usually used with an object."
+    },
+    {
+      "word": ["regime", "regimen"],
+      "partOfSpeech": "NOUN",
+      "content": "A regime is a system of government. Use regimen for a course of diet and exercise.",
+      "page": 125,
+      "message": "Use 'regime' for systems of government, 'regimen' for prescribed courses of diet, exercise, or medical treatment."
+    },
+    {
+      "word": "relationship",
+      "partOfSpeech": "NOUN",
+      "content": "Relationship is a long word often better replaced by relations.",
+      "page": 125,
+      "replace": "relationship",
+      "replaceWith": "relations",
+      "message": "Consider using 'relations' instead of 'relationship' for more concise writing, especially in formal or academic contexts."
+    },
+    {
+      "word": "relatively",
+      "partOfSpeech": "ADV",
+      "content": "Keep this for when you really mean in relation to something else. If you just mean fairly, somewhat, say that.",
+      "page": 126,
+      "replace": "relatively",
+      "replaceWith": ["fairly", "somewhat"],
+      "message": "Use 'relatively' only when comparing to something specific. For general moderation, use 'fairly' or 'somewhat'."
+    },
+    {
+      "word": "report",
+      "partOfSpeech": "VERB",
+      "content": "Report on, not into.",
+      "page": 126,
+      "replace": "report into",
+      "replaceWith": "report on",
+      "message": "Use 'report on', not 'report into'."
+    },
+    {
+      "word": ["reshuffle", "resupply"],
+      "partOfSpeech": "VERB",
+      "content": "Shuffle and supply will do.",
+      "page": 126,
+      "replace": ["reshuffle", "resupply"],
+      "replaceWith": ["shuffle", "supply"],
+      "message": "Prefer 'shuffle' to 'reshuffle', and 'supply' to 'resupply' for more concise writing."
+    },
+    {
+      "word": "revert",
+      "partOfSpeech": "VERB",
+      "content": "Revert means return to or go back to. It does not mean come back to or get back to.",
+      "page": 126,
+      "message": "Use 'revert' only for returning to a previous state, not for replying or getting back to someone."
+    },
+    {
+      "word": "rock",
+      "partOfSpeech": "NOUN",
+      "content": "In Britain a rock is too large to throw; protesters use stones.",
+      "page": 126,
+      "replace": "rock",
+      "replaceWith": "stone",
+      "message": "In British English, use 'stone' for throwable objects, reserving 'rock' for larger formations."
+    },
+    {
+      "word": "same",
+      "content": "Often superfluous. If your sentence contains on the same day that, try on the day that.",
+      "page": 126,
+      "replace": "on the same day that",
+      "replaceWith": "on the day that",
+      "message": "Consider omitting 'same' when it doesn't add meaning. 'On the day that' is often clearer than 'on the same day that'."
+    },
+    {
+      "word": "sanction",
+      "partOfSpeech": "VERB",
+      "content": "Do not use sanction as a verb to mean to impose sanctions on, because it traditionally means the reverse, to approve or bless.",
+      "page": 126,
+      "message": "Avoid using 'sanction' as a verb for imposing penalties. Use 'impose sanctions on' instead. 'Sanction' as a verb traditionally means to approve."
+    },
+    {
+      "word": ["scale", "scalable"],
+      "content": "Avoid the jargony verb to scale and its adjective scalable to describe innovations, growing companies, development solutions and the like.",
+      "page": 126,
+      "replace": ["scale", "scalable"],
+      "replaceWith": ["grow", "expandable"],
+      "message": "Avoid jargon like 'to scale' or 'scalable'. Use clearer terms like 'grow' or 'expandable'."
+    },
+    {
+      "word": ["scotch", "Scotch", "Scottish", "Scots"],
+      "content": "To scotch means to slash or disable, not to destroy. The adjective Scotch may describe products like whisky, beef or eggs. But the people are Scottish (adj) or Scots (n). Scots is also the name of the dialect of the region.",
+      "page": 127,
+      "message": "Use 'scotch' for disabling, not destroying. 'Scotch' is for products, 'Scottish' for people (adj), 'Scots' for people (n) and dialect."
+    },
+    {
+      "content": "Second-biggest (third-oldest, etc): think before you write. Often not necessary.",
+      "page": 127,
+      "message": "Consider if ordinal rankings like 'second-biggest' are necessary. Often, the fact alone is sufficient without the ranking."
+    },
+    {
+      "word": ["secret", "secretive"],
+      "content": "Places, meetings or documents can be secret, but only people or their methods can be secretive.",
+      "page": 127,
+      "message": "Use 'secret' for things, 'secretive' for people or their behaviors."
+    },
+    {
+      "word": ["sensual", "sensuous"],
+      "partOfSpeech": "ADJ",
+      "content": "Sensual means carnal or voluptuous. Sensuous means pertaining to aesthetic appreciation, without any implication of lasciviousness.",
+      "page": 127,
+      "message": "Use 'sensual' for physical pleasure, 'sensuous' for aesthetic appreciation without sexual connotation."
+    },
+    {
+      "word": ["sequestered", "sequestrated"],
+      "partOfSpeech": "VERB",
+      "content": "Sequestered means secluded. Sequestrated means confiscated or made bankrupt.",
+      "page": 127,
+      "message": "Use 'sequestered' for isolation or seclusion, 'sequestrated' for legal confiscation or bankruptcy."
+    },
+    {
+      "word": "shrug",
+      "partOfSpeech": "VERB",
+      "content": "This means to draw up the shoulders, so do not write She shrugged her shoulders.",
+      "page": 127,
+      "replace": "shrugged her shoulders",
+      "replaceWith": "shrugged",
+      "message": "Use 'shrugged' alone, not 'shrugged her shoulders'. The shoulders are implied in the verb."
+    },
+    {
+      "word": ["silicon", "silicone"],
+      "partOfSpeech": "NOUN",
+      "content": "Silicon is a common element used as a semiconductor to make electronic circuits smaller. Silicone is a compound of silicon best known for its use in rubbery tools and artificial body parts.",
+      "page": 128,
+      "message": "Use 'silicon' for the element in electronics, 'silicone' for the rubbery compound."
+    },
+    {
+      "word": "simplistic",
+      "partOfSpeech": "ADJ",
+      "content": "Prefer simple-minded, naive.",
+      "page": 128,
+      "replace": "simplistic",
+      "replaceWith": ["simple-minded", "naive"],
+      "message": "Avoid 'simplistic', which implies overly simple. Use 'simple-minded' or 'naive' if that's the intended meaning."
+    },
+    {
+      "word": "skyrocketed",
+      "partOfSpeech": "VERB",
+      "content": "Rocketed is graphic enough. Avoid skyrocketing.",
+      "page": 128,
+      "replace": "skyrocketed",
+      "replaceWith": "rocketed",
+      "message": "Use 'rocketed' instead of 'skyrocketed' for a less exaggerated description of rapid increase."
+    },
+    {
+      "word": ["slither", "sliver"],
+      "content": "As a noun, slither is scree. As a verb, it means slide. If you mean a slice, the word you want is sliver.",
+      "page": 129,
+      "message": "Use 'slither' for sliding motion, 'sliver' for a thin slice or piece."
+    },
+    {
+      "word": "smart",
+      "partOfSpeech": "ADJ",
+      "content": "In British English, smart means well dressed, but smart sanctions, smart weapons, smartphones and all else of that nature are now with us for good. In fact, the word is now so over-used that if you merely mean clever or elegant (of people), say so.",
+      "page": 129,
+      "replace": "smart",
+      "replaceWith": ["clever", "elegant"],
+      "message": "In British English, 'smart' traditionally means well-dressed. For intelligence or style, consider 'clever' or 'elegant'."
+    },
+    {
+      "word": "socialise",
+      "partOfSpeech": "VERB",
+      "content": "The original British meaning of socialise was to make someone ready for society. Americans, meanwhile, use socialise to mean getting together for a drink.",
+      "page": 129,
+      "message": "Be aware of different meanings of 'socialise' in British (prepare for society) and American (casual gathering) English."
+    },
+    {
+      "word": "soft-spoken",
+      "partOfSpeech": "ADJ",
+      "content": "If you have a quiet voice you are soft—not softly—spoken.",
+      "page": 129,
+      "replace": "softly-spoken",
+      "replaceWith": "soft-spoken",
+      "message": "Use 'soft-spoken', not 'softly-spoken'."
+    },
+    {
+      "word": "soi-disant",
+      "content": "Soi-disant means self-styled, not so-called.",
+      "page": 129,
+      "message": "Use 'soi-disant' to mean self-styled, not as a synonym for 'so-called'."
+    },
+    {
+      "word": "specific",
+      "partOfSpeech": "NOUN",
+      "content": "Do not use in the singular to mean a detail; a specific is a medicine or remedy. But in the plural specifics are allowed.",
+      "page": 129,
+      "message": "Avoid using 'specific' (singular) to mean detail. Use 'specifics' (plural) for details."
+    },
+    {
+      "word": ["stanch", "staunch"],
+      "content": "Stanch the flow, though the man be staunch (stout).",
+      "page": 129,
+      "message": "Use 'stanch' for stopping a flow, 'staunch' for loyal or committed."
+    },
+    {
+      "word": ["stentorian", "stertorous"],
+      "partOfSpeech": "ADJ",
+      "content": "Stentorian means loud. Stertorous means characterised by a snoring sound.",
+      "page": 129,
+      "message": "Use 'stentorian' for loud voice, 'stertorous' for snoring-like sounds."
+    },
+    {
+      "word": ["straight", "strait"],
+      "partOfSpeech": "ADJ",
+      "content": "Straight means direct or uncurved; strait means narrow or tight.",
+      "page": 130,
+      "message": "Use 'straight' for direct or uncurved, 'strait' for narrow passages or dire situations."
+    },
+    {
+      "word": "strategy",
+      "partOfSpeech": "NOUN",
+      "content": "Strategy, in military contexts, is distinguished from tactics (qv). But in other contexts, especially business, strategy is much overused to dignify a mere plan.",
+      "page": 130,
+      "replace": "strategy",
+      "replaceWith": "plan",
+      "message": "Reserve 'strategy' for high-level planning. In business contexts, consider if 'plan' would suffice."
+    },
+    {
+      "word": "-style",
+      "content": "Avoid German-style supervisory boards, an EU-style rotating presidency, etc. Explain what you mean.",
+      "page": 130,
+      "message": "Avoid '-style' constructions. Explain the specific characteristics instead."
+    },
+    {
+      "word": "subcontract",
+      "partOfSpeech": "VERB",
+      "content": "If you engage someone to do something, you are contracting the job; only if the contractor then asks someone else to do it is the job subcontracted.",
+      "page": 130,
+      "message": "Use 'subcontract' only when a contractor delegates work to another party. Otherwise, use 'contract'."
+    },
+    {
+      "word": "sustainable",
+      "partOfSpeech": "ADJ",
+      "content": "A sustainable business is one that will not go bust. A sustainable-energy business is trying to make energy from algae, etc. Sustainable farming is trying not to exhaust the land in the process.",
+      "page": 130,
+      "message": "Be specific when using 'sustainable'. It can mean financially viable, environmentally friendly, or long-term feasible, depending on context."
+    },
+    {
+      "word": ["swath", "swathe"],
+      "partOfSpeech": "NOUN",
+      "content": "A swath was originally the area covered by the reaper's scythe, and by extension a broad sweep of land. A swathe was a band of linen in which, for instance, a child may be wrapped. The distinction between them is all but lost, so use swathe for both.",
+      "page": 130,
+      "message": "Use 'swathe' for both area of land and wrapping. The distinction between 'swath' and 'swathe' is largely obsolete."
+    },
+    {
+      "word": ["systemic", "systematic"],
+      "partOfSpeech": "ADJ",
+      "content": "Systemic means relating to a system or body as a whole. Systematic means according to system, or methodical.",
+      "page": 131,
+      "message": "Use 'systemic' for issues affecting an entire system, 'systematic' for methodical approaches."
+    },
+    {
+      "word": "table",
+      "partOfSpeech": "VERB",
+      "content": "Avoid table as a transitive verb. In Britain to table means to bring something forward for action. In America it means the opposite, ie, to shelve.",
+      "page": 131,
+      "message": "Avoid 'table' as a verb due to its opposite meanings in British and American English. Use specific verbs like 'propose' or 'postpone'."
+    },
+    {
+      "word": "tactics",
+      "partOfSpeech": "NOUN",
+      "content": "Whether in battle or in politics, use for day-to-day techniques as opposed to strategy (qv), the long-term plan.",
+      "page": 131,
+      "message": "Use 'tactics' for short-term methods, 'strategy' for long-term planning."
+    },
+    {
+      "word": "terrorist",
+      "partOfSpeech": "NOUN",
+      "content": "Use these words with care. Prefer terrorism to terror when you refer to the use of violence by non-state actors in an organised system of intimidation for political ends. A terrorist is someone who resorts to such methods. Prefer suspected terrorists to terrorist suspects.",
+      "page": 131,
+      "message": "Use 'terrorism' for the act, 'terrorist' for the perpetrator. Prefer 'suspected terrorist' to 'terrorist suspect'."
+    },
+    {
+      "word": ["testament", "testimony"],
+      "partOfSpeech": "NOUN",
+      "content": "A testament is a will, and testimony is evidence.",
+      "page": 131,
+      "message": "Use 'testament' for a will or strong evidence, 'testimony' for spoken evidence."
+    },
+    {
+      "word": ["throe", "throw"],
+      "content": "Throes are spasms or pangs. Throw is the act of casting or hurling through the air.",
+      "page": 132,
+      "message": "Use 'throes' for struggles or pains, 'throw' for hurling or casting."
+    },
+    {
+      "word": "times",
+      "content": "Be careful. Avoid three times more than (higher than) x. Instead, write gas prices are nine times what they were at this time last year.",
+      "page": 132,
+      "replace": "times more than",
+      "replaceWith": "times what they were",
+      "message": "Avoid 'times more than'. Use 'times what it was' for clear comparisons."
+    },
+    {
+      "word": ["tortuous", "torturous"],
+      "partOfSpeech": "ADJ",
+      "content": "Tortuous means winding or twisting. Torturous means causing torture.",
+      "page": 133,
+      "message": "Use 'tortuous' for winding paths or complex arguments, 'torturous' for extremely painful experiences."
+    },
+    {
+      "word": ["tragedy", "travesty"],
+      "partOfSpeech": "NOUN",
+      "content": "A travesty is (originally) a disguise or (today) an absurdly inadequate representation of someone or something, as in a travesty of justice. A tragedy is a dramatically sad event.",
+      "page": 133,
+      "message": "Use 'tragedy' for sad events, 'travesty' for mockeries or gross misrepresentations."
+    },
+    {
+      "word": "transgender",
+      "content": "On first mention, when appropriate, describe someone who has transitioned to being a man as a transgender man and one who has transitioned to being a woman a transgender woman. On second mention, it is trans man and trans woman with a space.",
+      "page": 133,
+      "message": "Use 'transgender man/woman' on first mention, 'trans man/woman' thereafter. Always use the gender the person has transitioned to."
+    },
+    {
+      "word": "transpire",
+      "partOfSpeech": "VERB",
+      "content": "Transpire originally meant (for vapour) to pass through the walls of a surface, or (for an animal) to exhale. Unless you mean the physical sense, use come to light or happen.",
+      "page": 134,
+      "replace": "transpire",
+      "replaceWith": ["come to light", "happen"],
+      "message": "Avoid 'transpire' to mean 'happen'. Use 'come to light' or 'happen' instead."
+    },
+    {
+      "word": "troika",
+      "partOfSpeech": "NOUN",
+      "content": "Use it when it is unavoidable. But avoid proliferation of this word when trio or threesome will do as well.",
+      "page": 134,
+      "replace": "troika",
+      "replaceWith": ["trio", "threesome"],
+      "message": "Use 'troika' only when specifically referring to a Russian three-horse sled or a group of three in a political context. Otherwise, prefer 'trio' or 'threesome'."
+    },
+    {
+      "word": ["trooper", "trouper"],
+      "partOfSpeech": "NOUN",
+      "content": "A trooper is a cavalry soldier. Some other non-cavalry units employ the rank of trooper as well. But if prefixed by old, what you want is trouper, an old member of a theatrical company, or perhaps a good sort.",
+      "page": 134,
+      "message": "Use 'trooper' for soldiers, 'trouper' (especially 'old trouper') for experienced performers or reliable people."
+    },
+    {
+      "word": ["try to", "try and"],
+      "content": "Try to choose try to over the chatty try and.",
+      "page": 134,
+      "replace": "try and",
+      "replaceWith": "try to",
+      "message": "Prefer 'try to' over 'try and' in formal writing."
+    },
+    {
+      "word": ["twinkle", "twinkling"],
+      "content": "In the twinkling of an eye means in a very short time.",
+      "page": 134,
+      "message": "Use 'in the twinkling of an eye' to mean 'very quickly' or 'in an instant'."
+    },
+    {
+      "content": "Use and abuse: much used and abused.",
+      "page": 135,
+      "message": "Be cautious with the phrase 'use and abuse'. It's often overused."
+    },
+    {
+      "word": ["venal", "venial"],
+      "partOfSpeech": "ADJ",
+      "content": "Venal means unprincipled, capable of being bribed, subject to corrupt influences, etc. Venial is a forgivable class of sins in Christianity, ranked below the mortal sins.",
+      "page": 135,
+      "message": "Use 'venal' for corruption or bribery, 'venial' for minor, forgivable faults."
+    },
+    {
+      "word": "venerable",
+      "partOfSpeech": "ADJ",
+      "content": "Venerable means worthy of reverence. Do not use to mean merely old.",
+      "page": 135,
+      "message": "Use 'venerable' for respect-worthy people or institutions, not just for old things."
+    },
+    {
+      "word": ["verbal", "oral"],
+      "partOfSpeech": "ADJ",
+      "content": "Every agreement, except those of the nod-and-wink variety, is verbal. If you mean one that was not written down, describe it as oral.",
+      "page": 135,
+      "replace": "verbal",
+      "replaceWith": "oral",
+      "message": "Use 'oral' for spoken agreements, 'verbal' for any agreement using words (including written)."
+    },
+    {
+      "word": "via",
+      "partOfSpeech": "ADP",
+      "content": "The Latin via means by way of. So too in English.",
+      "page": 135,
+      "message": "Use 'via' to mean 'by way of' or 'through'. Avoid overuse; consider alternatives like 'through' or 'by'."
+    },
+    {
+      "word": ["-ward", "-wards"],
+      "content": "When it forms part of an adjective, the suffix -ward should not take an s: a backward somersault, an eastward glance. As part of an adverb, either - ward or -wards may be correct.",
+      "page": 135,
+      "message": "Use '-ward' for adjectives (e.g., 'eastward direction'), '-ward' or '-wards' for adverbs."
+    },
+    {
+      "word": "while",
+      "content": "Not whilst.",
+      "page": 136,
+      "replace": "whilst",
+      "replaceWith": "while",
+      "message": "Use 'while', not 'whilst'."
+    },
+    {
+      "word": ["wiggle", "wriggle"],
+      "partOfSpeech": "VERB",
+      "content": "By all means wiggle your hips, but if you need space in which to do it, or something else, that is wriggle room.",
+      "page": 136,
+      "message": "Use 'wiggle' for small, quick movements. Use 'wriggle' for twisting movements or for 'wriggle room' (flexibility)."
+    },
+    {
+      "content": "Words ending -ee:",
+      "page": 136,
+      "replace": ["attendees", "draftees", "enrollees", "escapees", "indictees", "mentees", "retirees", "returnees", "standees", "tutees"],
+      "replaceWith": ["attendants", "conscripts", "enrollers", "escapers", "indicted people", "protégés", "retirees", "returners", "standing passengers", "pupils"],
+      "message": "Avoid unnecessary -ee endings. Use more specific or traditional terms where possible."
+    },
+    {
+      "word": "worth",
+      "content": "When the word worth follows a sum, measurement or quantity, an apostrophe is needed. Note: $25m-worth is an exception.",
+      "page": 137,
+      "message": "Use an apostrophe with 'worth' after quantities (e.g., 'a dollar's worth'), except in '$25m-worth'."
+    },
+    {
+      "word": ["wrack", "rack", "wreak", "wrought"],
+      "content": "Wrack is an old noun meaning vengeance, punishment or wreckage (as in wrack and ruin). As a verb it can mean to devastate. It has nothing to do with a rack, as in a frame on which you might put toast. If you mean something like torture, you want racked. To wreak is to bring about or inflict, as in damage, destruction or havoc. Its past tense and past participle is wreaked.",
+      "page": 137,
+      "message": "Use 'wrack' for ruin, 'rack' for frameworks or torture, 'wreak' for inflicting, and 'wrought' as past tense of 'work' (archaic except in set phrases)."
+    }
+  ]
+}
+
+
