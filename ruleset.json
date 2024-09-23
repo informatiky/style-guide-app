@@ -3534,7 +3534,7 @@
     },
     {
       "word": ["silicon", "silicone"],
-      "partOfSpeech": "NOUN",
+      "partOfSpeech": ["NOUN","PROPN"],
       "content": "Silicon is a common element used as a semiconductor to make electronic circuits smaller. Silicone is a compound of silicon best known for its use in rubbery tools and artificial body parts.",
       "page": 128,
       "message": "Use 'silicon' for the element in electronics, 'silicone' for the rubbery compound."
