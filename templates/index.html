@@ -2,20 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}" />
     <title>Digital Style Guide</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+<!--    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='apple-touch-icon.png') }}">-->
+    <link rel="apple-touch-icon" sizes="512x512" href="{{ url_for('static', filename='dsgr.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='site.webmanifest') }}">
     <style>
         body {
             font-family: 'Fira Sans', sans-serif;
             font-weight: normal;
             margin: 0;
             padding: 0;
+            font-size: 16px;
+            line-height: 1.5;
         }
 
         .header {
@@ -39,21 +44,26 @@
         }
 
         .menuBar {
-            padding: 20px;
+            padding: 20px 0;
             border: 2px #E3120B;
             border-style: solid none;
             display: flex;
             align-items: center;
+            justify-content: space-between;
+            width: auto;
+            min-width: 300px; /* Adjust this value as needed */
         }
 
+
+
         .menuBar p {
+            cursor: pointer;
             display: inline;
-            margin: 0 30px;
+            margin: 20px;
         }
 
         .menuBar p:hover {
             color: #E3120B;
-            cursor: pointer;
         }
 
         .details {
@@ -142,28 +152,45 @@
             position: absolute;
             bottom: 10px;
             right: 10px;
-            width: 40px;
-            height: 40px;
             background-color: #E3120B;
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-            padding: 0;
-            font-size: 20px;
             color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, padding-right 0.3s;
+            z-index: 101;
+            pointer-events: all;
         }
 
-        .checkbox-svg {
-            width: 24px;
-            height: 24px;
-            stroke: white;
-            stroke-width: 2;
-            stroke-linecap: round;
-            stroke-linejoin: round;
-            pointer-events: none;
+        #submitButton:hover {
+            background-color: #c51009;
+        }
+
+        #submitButton:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+
+        #submitButton.checking {
+            background-color: #FFA500;
+            cursor: wait;
+        }
+
+        #submitButton.checked {
+            background-color: #4CAF50;
+            padding-right: 40px;
+        }
+
+        #submitButton.checked::after {
+            content: '\2713';
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            font-weight: bold;
         }
 
         .settings-icon {
@@ -199,9 +226,6 @@
             word-wrap: break-word;
         }
 
-        .error-underline {
-
-        }
         .input-container {
             position: relative;
             width: 60vw;
@@ -301,6 +325,84 @@
         .copyright {
             margin-top: 20px;
         }
+        @media (max-width: 768px) {
+            .header {
+                margin: 20px;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .headerLT {
+                margin: auto;
+            }
+            .header svg {
+                margin-right: 20px;
+            }
+
+            .menuBar {
+                justify-content: center;
+                margin: auto;
+            }
+
+            .menuBar p {
+                margin: 10px 15px;
+            }
+
+
+            footer {
+                padding: 10px;
+                width: 100vw;
+            }
+            footer .links {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            footer .links a {
+                margin: 10px 0;
+            }
+
+
+            .inputPart {
+                margin: 20px;
+            }
+
+            .input-container {
+                width: 90vw;
+                height: 200px;
+            }
+            #about, #github {
+                width: 90vw;
+            }
+            .details {
+                position: relative;
+            }
+
+            .detailMenu {
+                position: fixed;
+                top: 50vw;
+                left: 50vw;
+                transform: translate(-50%, -50%);
+                width: auto;
+                background-color: #EBEDFA;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                z-index: 1000;
+                click-events: all;
+            }
+
+            .detailMenu.show {
+                display: block;
+            }
+
+            .detailMenu p {
+                padding: 10px;
+                margin: 0;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .detailMenu p:last-child {
+                border-bottom: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -313,7 +415,8 @@
 
     <div class="menuBar">
         <a href="#about"><p>about</p></a>
-        <div class="details">details
+        <div class="details">
+            <p>details</p>
             <div class="detailMenu">
                 <a href="/ethnic-and-racial-groups"><p>Ethnic and Racial Groups</p></a>
                 <a href="/fewer-than-less-than"><p>Fewer than and Less than</p></a>
@@ -345,7 +448,7 @@
             <textarea id="textInput" spellcheck="false"></textarea>
             <div id="highlightOverlay"></div>
         </div>
-        <input id="submitButton" type="submit" value="">
+        <button id="submitButton" type="button">Check</button>
     </div>
 
 </div>
@@ -387,9 +490,36 @@
         const settingsIcon = document.querySelector('.settings-icon');
         const autoUpdateNote = document.querySelector('.auto-update-note');
 
+        submitButton.textContent = 'Check';
+        submitButton.classList.remove('checked');
+        submitButton.disabled = false;
+
+
         const detailsElement = document.querySelector('.details');
         const detailMenu = document.querySelector('.detailMenu');
         let timeoutId;
+
+
+        function toggleMenu(event) {
+            event.preventDefault(); // Prevent default link behavior
+            event.stopPropagation(); // Prevent event from bubbling up
+            detailMenu.classList.toggle('show');
+        }
+
+        // Add click event listener to the details element
+        detailsElement.addEventListener('click', toggleMenu);
+
+        // Close the menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!detailsElement.contains(event.target)) {
+                detailMenu.classList.remove('show');
+            }
+        });
+
+        // Prevent menu from closing when clicking inside it
+        detailMenu.addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
 
         // Create tooltip element
         const tooltip = document.createElement('div');
@@ -487,7 +617,33 @@
             }
         });
 
-        submitButton.addEventListener('click', checkText);
+        submitButton.addEventListener('click', function() {
+            if (submitButton.disabled) {
+                return; // Prevent multiple clicks
+            }
+
+            submitButton.disabled = true;
+            submitButton.textContent = 'Checking...';
+            submitButton.classList.add('checking');
+
+            // Perform actual check here
+            checkText();
+
+            // Simulate checking process
+            setTimeout(() => {
+                submitButton.textContent = 'Checked!';
+                submitButton.classList.remove('checking');
+                submitButton.classList.add('checked');
+
+                // Reset button after 2 seconds
+                setTimeout(() => {
+                    submitButton.textContent = 'Check';
+                    submitButton.classList.remove('checked');
+                    submitButton.disabled = false;
+                }, 1500);
+            }, 1000);
+        });
+
 
         settingsIcon.addEventListener('click', function() {
             autoUpdate = !autoUpdate;

@@ -1,10 +1,11 @@
 import json
 import logging
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, send_from_directory
 import spacy
 from spacy.matcher import PhraseMatcher
 from spacy.tokens import Span
 import re
+import os
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)
@@ -53,6 +54,11 @@ for rule in rules:
 		logger.warning(f"Rule without 'word' key: {rule}")
 
 logger.info(f"Added {pattern_count} patterns to the matcher")
+
+@app.route('/favicon.ico')
+def favicon():
+	return send_from_directory(os.path.join(app.root_path, 'static'),
+	                           'favicon.ico',mimetype='image/vnd.microsoft.icon')
 
 @app.route('/ethnic-and-racial-groups')
 def ethnicRacialGroups():
@@ -142,4 +148,4 @@ def check_text():
 	return jsonify(results)
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=True, host='0.0.0.0', port=5001)
