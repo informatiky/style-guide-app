@@ -6,6 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <style>
         body {
             font-family: 'Fira Sans', sans-serif;
@@ -56,7 +60,7 @@
             position: relative;
         }
 
-        .detailMenu {
+        div.detailMenu {
             display: none;
             font-weight: lighter;
             font-size: 16px;
@@ -72,14 +76,14 @@
             opacity: 0;
             visibility: hidden;
         }
-
-        .details:hover .detailMenu {
+        div.menuBar div.details:hover div.detailMenu,
+        div.menuBar div.details div.detailMenu:hover {
             display: block;
             opacity: 1;
             visibility: visible;
+            cursor: pointer;
         }
-
-        .detailMenu p {
+        div.detailMenu p {
             margin: 10px 0;
             display: block;
         }
@@ -133,20 +137,6 @@
             cursor: pointer;
         }
 
-        .error-tooltip {
-            position: absolute;
-            z-index: 1000;
-            background-color: #555;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px 10px;
-            font-size: 14px;
-            line-height: 1.4;
-            width: max-content;
-            max-width: 200px;
-            pointer-events: none;
-        }
 
         #submitButton {
             position: absolute;
@@ -198,7 +188,7 @@
         }
         #error-tooltip {
             position: absolute;
-            background-color: #333;
+            background-color: #333333;
             color: white;
             padding: 5px 10px;
             border-radius: 4px;
@@ -210,9 +200,7 @@
         }
 
         .error-underline {
-            text-decoration: underline wavy red;
-            cursor: pointer;
-            z-index: 100;
+
         }
         .input-container {
             position: relative;
@@ -253,25 +241,65 @@
         }
 
         .error-underline {
-            text-decoration: underline;
-            text-decoration-style: wavy;
-            text-decoration-color: red;
+            text-decoration: underline wavy red;
             cursor: pointer;
+            z-index: 100;
             pointer-events: all;
         }
-
-        .error-tooltip {
-            position: fixed;
-            z-index: 1000;
-            background-color: #555;
-            color: #fff;
+        #about {
+            margin-top: 60px;
+            width: 60vw;
+            max-width: 800px;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: auto;
+        }
+        #github {
+            margin-top: 100px;
+            width: 60vw;
+            max-width: 800px;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: auto;
+        }
+        #github span {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
             text-align: center;
-            border-radius: 6px;
-            padding: 5px 10px;
-            font-size: 14px;
-            line-height: 1.4;
-            width: max-content;
-            max-width: 200px;
+            margin-top: 60px;
+        }
+
+        footer .links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        footer .links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        footer .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer h4 {
+            margin: 10px 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+        .copyright {
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -319,7 +347,34 @@
         </div>
         <input id="submitButton" type="submit" value="">
     </div>
+
 </div>
+
+<div id="about">
+    <h3>About</h3>
+    <p>The purpose of this tool is to make your writing more consistent, clear and respectful. The rules applied to your text come from the book <em>Writing with Style</em> by Lane Green. Through natural language processing, a form of artificial intelligence, your text gets analysed for specific words, their root and their part of speech in the sentence. Once the script found a fitting word, it will alert you by underline the word in question. Hover over it to find out more. The tool intentionally does not offer a simple "accept" button because it encourages your the writers voice and tries to teach you with every mistake you make.</p>
+</div>
+<div id="github">
+    <h3>Github</h3>
+    <p>The code to this website and the script which checks for the rules is hosted on <span><a href="https://github.com/informatiky/style-guide-app">Github</a></span> and publicly available to anyone interested under the "GNU Affero General Public License v3.0". In short, you are allowed to copy the code and use it commercially, but you will always need to make your source code public. </p>
+</div>
+
+<footer>
+    <div class="links">
+        <a href="/"><p>Home</p></a>
+        <a href="/ethnic-and-racial-groups"><p>Ethnic and Racial Groups</p></a>
+        <a href="/fewer-than-less-than"><p>Fewer than and Less than</p></a>
+        <a href="/gender-and-sex"><p>Gender and Sex</p></a>
+        <a href="/islam-islamism-jihadist-mujahideen"><p>Islam, Islamism, jihadist, mujahideen</p></a>
+        <a href="/singular-or-plural"><p>Singular or Plural</p></a>
+        <a href="/the"><p>The</p></a>
+        <a href="/transitive-and-intransitive-verbs"><p>Transitive and Intransitive verbs</p></a>
+    </div>
+    <h4>Book citation:</h4>
+    <p>Greene, Lane. <em>Writing With Style: The Economist Guide</em>. Economist Books, 2023.</p>
+    <p class="copyright">© 2024 Digital Style Guide</p>
+</footer>
+
 
 <script>
     let autoUpdate = false;
@@ -332,11 +387,40 @@
         const settingsIcon = document.querySelector('.settings-icon');
         const autoUpdateNote = document.querySelector('.auto-update-note');
 
+        const detailsElement = document.querySelector('.details');
+        const detailMenu = document.querySelector('.detailMenu');
+        let timeoutId;
+
         // Create tooltip element
         const tooltip = document.createElement('div');
         tooltip.id = 'error-tooltip';
         tooltip.className = 'error-tooltip';
         document.body.appendChild(tooltip);
+
+        function showMenu() {
+            clearTimeout(timeoutId);
+            detailMenu.style.display = 'block';
+            setTimeout(() => {
+                detailMenu.style.opacity = '1';
+                detailMenu.style.visibility = 'visible';
+            }, 50);
+        }
+
+        function hideMenu() {
+            timeoutId = setTimeout(() => {
+                detailMenu.style.opacity = '0';
+                detailMenu.style.visibility = 'hidden';
+                setTimeout(() => {
+                    detailMenu.style.display = 'none';
+                }, 300);
+            }, 300);
+        }
+
+        // New event listeners for menu behavior
+        detailsElement.addEventListener('mouseenter', showMenu);
+        detailsElement.addEventListener('mouseleave', hideMenu);
+        detailMenu.addEventListener('mouseenter', showMenu);
+        detailMenu.addEventListener('mouseleave', hideMenu);
 
         function checkText() {
             const text = textInput.value;
@@ -383,7 +467,6 @@
             if (!hasErrors) {
                 console.log('No errors found after processing');
                 clearHighlights();
-                alert('No errors found in the text.');
                 return;
             }
 

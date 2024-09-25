@@ -6,102 +6,126 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <style>
+        /* General Styles */
         body {
             font-family: 'Fira Sans', sans-serif;
             font-weight: normal;
             margin: 0;
             padding: 0;
-        }
-        div.menuBar p {
-            display: inline;
-            margin: 0 30px 0 30px;
-        }
-        div.header h1 {
-            font-weight: normal;
-        }
-        div.header svg {
-            margin-right: 60px;
-            display: flex;
-            align-items: center;
-        }
-        div.header div.menuBar {
-            padding: 20px;
-            border: 2px #E3120B;
-            border-style: solid none solid none;
-            display: flex;
-            align-items: center;
-        }
-        div.header {
-            margin: 60px 100px 60px 100px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        div.header div.headerLT {
-            display: flex;
-            align-items: center;
-        }
-        h2 {
-            text-align: center;
-            font-weight: lighter;
-        }
-        textarea {
-            width: 60vw;
-            height: 300px;
-            padding: 10px;
-            max-width: 800px;
-            font-size: 15px;
-            border: none;
-            resize: none;
+            overflow-x: hidden;
         }
 
         a {
             text-decoration: none;
             color: black;
         }
-        div.menuBar p:hover {
-            color: #E3120B;
-            cursor: pointer;
+
+        h2 {
+            text-align: center;
+            font-weight: lighter;
         }
 
-        div.detailMenu {
-            display: none;
-            font-weight: lighter;
-            font-size: 16px;
-            text-align: left;
-            position: absolute;
-            background-color: #EBEDFA;
-            padding: 10px;
-            top: 250%;
-            left: 0;
-            z-index: 1;
-            white-space: nowrap;
+        /* Header Styles */
+        .header {
+            margin: 60px 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
-        div.menuBar div.details {
-            position: relative;
+
+        .header .headerLT {
+            display: flex;
+            align-items: center;
         }
-        div.menuBar div.details:hover div.detailMenu {
-            display: block;
+
+        .header svg {
+            margin-right: 60px;
         }
-        div.detailMenu p {
-            margin: 10px 0;
-            display: block;
+
+        .header h1 {
+            font-weight: normal;
         }
-        div.detailContent {
-            margin: auto;
-            margin-top: 60px;
+
+        /* Menu Bar Styles */
+        .menuBar {
+            padding: 20px 0;
+            border: 2px #E3120B;
+            border-style: solid none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: auto;
+            min-width: 300px; /* Adjust this value as needed */
+        }
+
+
+
+        .menuBar p {
+            cursor: pointer;
+            display: inline;
+            margin: 20px;
+        }
+
+        .menuBar p:hover {
+            color: #E3120B;
+        }
+
+        /* Content Styles */
+        .detailContent {
+            margin: 60px auto;
             width: 60vw;
             max-width: 800px;
-
         }
-        div.detailContent p {
+
+        .detailContent p {
             font-size: 16px;
             line-height: 2;
-            margin-top: 60px;
-            margin-bottom: 60px;
+            margin: 60px 0;
         }
 
+        footer {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+            bottom: 0;
+            position: relative;
+            width: 100vw;
+        }
+
+        footer .links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        footer .links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        footer .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer h4 {
+            margin: 10px 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+        .copyright {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -113,19 +137,9 @@
     </div>
 
     <div class="menuBar">
-        <a href="#about"><p>about</p></a>
-        <div class="details">details
-            <div class="detailMenu">
-                <p>Ethnic and Racial Groups</p>
-                <p>Fewer than and Less than</p>
-                <p>Gender and Sex</p>
-                <p>Islam, Islamism, jihadist, mujahideen</p>
-                <p>Singular or Plural</p>
-                <p>The</p>
-                <p>Transitive and Intransitive verbs</p>
-            </div>
-        </div>
-        <a href="#github"><p>github</p></a>
+        <a href="/#about"><p>about</p></a>
+        <a href="/"><p>home</p></a>
+        <a href="/#github"><p>github</p></a>
     </div>
 </div>
 
@@ -133,6 +147,22 @@
     <h2>ethnic and racial groups</h2>
     <p>In general, use the words that people would describe themselves with in ordinary conversation.<br /><em>People of colour</em> is awkward and to be avoided, as it lumps together highly distinct groups. It is basically a synonym for <em>non-white</em>. This defines people as what they are not, but can nonetheless be best when reporting on disparities in majority-white countries, when lacking the privileges of the majority is exactly what is at issue.<br />In America, prefer <em>black</em> to <em>African-American</em>, though the latter is still in circulation.<br />With indigenous peoples, it is better to speak of specific tribal groups where possible. When speaking about the overall population, most indigenous Australians should be called <em>Aboriginal people</em> (with upper case, and not <em>Aborigines</em> or <em>Aboriginals</em>), with the adjective <em>Aboriginal</em>. But this term does not include <em>Torres Strait Islanders</em>.<br />In Canada the groups include the <em>First Nations</em>, <em>M&eacute;tis</em> and <em>Inuit</em>. Avoid <em>Eskimo</em>, a name given by outsiders, even if some groups still use it. And certainly avoid the clich&eacute; about words for snow.<br />In the United States both <em>Native American</em> and <em>Indian</em> are acceptable. But to avoid confusion with people from India, use <em>Native Americans</em> on first mention and <em>Indians</em> or <em>Native Americans</em> fairly interchangeably in<br />later references.<br />When writing about Spanish-speaking people and their descendants in the United States, use either <em>Latino</em> or <em>Hispanic</em> as a general term, but try to be specific (eg, <em>Mexican-American</em>). Note that many Latin<br />Americans (eg, those from Brazil) are not <em>Hispanic</em>.<br />In Britain, <em>Asian</em> is primarily used to mean immigrants and their descendants from the Indian subcontinent. Many are coming to dislike the term, and foreigners may assume it means people from all over Asia, so take care.<br /><em>Africans</em> may be descended from Asians, Europeans or black Africans. If you specifically mean the latter, write <em>black Africans</em>.<br />In South Africa, <em>Afrikaners</em> are whites descended primarily from Dutch immigrants who speak <em>Afrikaans</em>&mdash;a language descended from Dutch but distinct. People of mixed race in South Africa are <em>Coloureds</em><br />(many of whom also speak Afrikaans).<br />Despite the popularity of the term in other languages, <em>Anglo-Saxon</em> is not a synonym for <em>English-speaking</em>, nor even for <em>British</em>. <em>Anglo-Saxon capitalism</em> does not exist.<br />Call the language spoken in Iran <em>Persian</em> (not Farsi).<br /><em>Flemings</em> speak <em>Dutch</em> (not Flemish).<br /><em>Ethnic</em>, meaning concerning nations or races or even something ill-defined in between, can be a useful word. But do not be shy of <em>race</em> and <em>racial</em> where that is the most precise word. American Latinos are considered an ethnicity that can be of any race. Black Americans are generally seen to share a race despite coming from many different ethnicities.</p>
 </div>
+
+<footer>
+    <div class="links">
+        <a href="/"><p>Home</p></a>
+        <a href="/ethnic-and-racial-groups"><p>Ethnic and Racial Groups</p></a>
+        <a href="/fewer-than-less-than"><p>Fewer than and Less than</p></a>
+        <a href="/gender-and-sex"><p>Gender and Sex</p></a>
+        <a href="/islam-islamism-jihadist-mujahideen"><p>Islam, Islamism, jihadist, mujahideen</p></a>
+        <a href="/singular-or-plural"><p>Singular or Plural</p></a>
+        <a href="/the"><p>The</p></a>
+        <a href="/transitive-and-intransitive-verbs"><p>Transitive and Intransitive verbs</p></a>
+    </div>
+    <h4>Book citation:</h4>
+    <p>Greene, Lane. <em>Writing With Style: The Economist Guide</em>. Economist Books, 2023.</p>
+    <p class="copyright">© 2024 Digital Style Guide</p>
+</footer>
 
 </body>
 </html>

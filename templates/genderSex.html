@@ -6,102 +6,126 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <style>
+        /* General Styles */
         body {
             font-family: 'Fira Sans', sans-serif;
             font-weight: normal;
             margin: 0;
             padding: 0;
-        }
-        div.menuBar p {
-            display: inline;
-            margin: 0 30px 0 30px;
-        }
-        div.header h1 {
-            font-weight: normal;
-        }
-        div.header svg {
-            margin-right: 60px;
-            display: flex;
-            align-items: center;
-        }
-        div.header div.menuBar {
-            padding: 20px;
-            border: 2px #E3120B;
-            border-style: solid none solid none;
-            display: flex;
-            align-items: center;
-        }
-        div.header {
-            margin: 60px 100px 60px 100px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        div.header div.headerLT {
-            display: flex;
-            align-items: center;
-        }
-        h2 {
-            text-align: center;
-            font-weight: lighter;
-        }
-        textarea {
-            width: 60vw;
-            height: 300px;
-            padding: 10px;
-            max-width: 800px;
-            font-size: 15px;
-            border: none;
-            resize: none;
+            overflow-x: hidden;
         }
 
         a {
             text-decoration: none;
             color: black;
         }
-        div.menuBar p:hover {
-            color: #E3120B;
-            cursor: pointer;
+
+        h2 {
+            text-align: center;
+            font-weight: lighter;
         }
 
-        div.detailMenu {
-            display: none;
-            font-weight: lighter;
-            font-size: 16px;
-            text-align: left;
-            position: absolute;
-            background-color: #EBEDFA;
-            padding: 10px;
-            top: 250%;
-            left: 0;
-            z-index: 1;
-            white-space: nowrap;
+        /* Header Styles */
+        .header {
+            margin: 60px 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
-        div.menuBar div.details {
-            position: relative;
+
+        .header .headerLT {
+            display: flex;
+            align-items: center;
         }
-        div.menuBar div.details:hover div.detailMenu {
-            display: block;
+
+        .header svg {
+            margin-right: 60px;
         }
-        div.detailMenu p {
-            margin: 10px 0;
-            display: block;
+
+        .header h1 {
+            font-weight: normal;
         }
-        div.detailContent {
-            margin: auto;
-            margin-top: 60px;
+
+        /* Menu Bar Styles */
+        .menuBar {
+            padding: 20px 0;
+            border: 2px #E3120B;
+            border-style: solid none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: auto;
+            min-width: 300px; /* Adjust this value as needed */
+        }
+
+
+
+        .menuBar p {
+            cursor: pointer;
+            display: inline;
+            margin: 20px;
+        }
+
+        .menuBar p:hover {
+            color: #E3120B;
+        }
+
+        /* Content Styles */
+        .detailContent {
+            margin: 60px auto;
             width: 60vw;
             max-width: 800px;
-
         }
-        div.detailContent p {
+
+        .detailContent p {
             font-size: 16px;
             line-height: 2;
-            margin-top: 60px;
-            margin-bottom: 60px;
+            margin: 60px 0;
         }
 
+        footer {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+            bottom: 0;
+            position: relative;
+            width: 100vw;
+        }
+
+        footer .links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        footer .links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        footer .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer h4 {
+            margin: 10px 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+        .copyright {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -113,19 +137,9 @@
     </div>
 
     <div class="menuBar">
-        <a href="#about"><p>about</p></a>
-        <div class="details">details
-            <div class="detailMenu">
-                <p>Ethnic and Racial Groups</p>
-                <p>Fewer than and Less than</p>
-                <p>Gender and Sex</p>
-                <p>Islam, Islamism, jihadist, mujahideen</p>
-                <p>Singular or Plural</p>
-                <p>The</p>
-                <p>Transitive and Intransitive verbs</p>
-            </div>
-        </div>
-        <a href="#github"><p>github</p></a>
+        <a href="/#about"><p>about</p></a>
+        <a href="/"><p>home</p></a>
+        <a href="/#github"><p>github</p></a>
     </div>
 </div>
 
@@ -133,6 +147,22 @@
     <h2>gender and sex</h2>
     <p>The first English meaning of <em>gender</em> was grammatical, applied to words, not people. Gender is prominent in languages like Latin or German, where every ordinary noun is masculine, neuter or feminine. This often baffles English-speakers who discover, for example, that the gender of M&auml;dchen, the German word for girl, is neuter.<br />In the second half of the 20th century gender took on another meaning. Feminists used it to refer to the social and cultural expectations that are built upon sex differences. When people talk about &ldquo;masculine&rdquo; or &ldquo;feminine&rdquo; behaviour they are talking about gender, not sex. Hence <em>gender studies, gender roles, gender bending</em> and the rest.<br />Sometimes the right word is simply prescribed by prevailing usage. There is a <em>gender pay gap</em> in virtually every country and company (not a&nbsp;<em>sex pay gap</em>). Indeed <em>sex</em> sometimes clangs if it could be understood to mean sexual intercourse. But do not be afraid of the word when discussing biology.<br />With job titles, use those generic terms like <em>police officer</em> and&nbsp;<em>firefighter</em> that have become neutral and natural. It is standard in academia to speak of the <em>chair of the history department</em>. But elsewhere&nbsp;<em>chairman</em> and <em>chairwoman</em> are better. (Avoid <em>chairpersons</em>.) With other titles, <em>actress</em> and <em>ballerina</em> are no more demeaning than <em>baroness</em> or&nbsp;<em>queen</em>. Use another title only if someone is known to prefer it.</p>
 </div>
+
+<footer>
+    <div class="links">
+        <a href="/"><p>Home</p></a>
+        <a href="/ethnic-and-racial-groups"><p>Ethnic and Racial Groups</p></a>
+        <a href="/fewer-than-less-than"><p>Fewer than and Less than</p></a>
+        <a href="/gender-and-sex"><p>Gender and Sex</p></a>
+        <a href="/islam-islamism-jihadist-mujahideen"><p>Islam, Islamism, jihadist, mujahideen</p></a>
+        <a href="/singular-or-plural"><p>Singular or Plural</p></a>
+        <a href="/the"><p>The</p></a>
+        <a href="/transitive-and-intransitive-verbs"><p>Transitive and Intransitive verbs</p></a>
+    </div>
+    <h4>Book citation:</h4>
+    <p>Greene, Lane. <em>Writing With Style: The Economist Guide</em>. Economist Books, 2023.</p>
+    <p class="copyright">© 2024 Digital Style Guide</p>
+</footer>
 
 </body>
 </html>

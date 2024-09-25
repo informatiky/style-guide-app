@@ -6,102 +6,126 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <style>
+        /* General Styles */
         body {
             font-family: 'Fira Sans', sans-serif;
             font-weight: normal;
             margin: 0;
             padding: 0;
-        }
-        div.menuBar p {
-            display: inline;
-            margin: 0 30px 0 30px;
-        }
-        div.header h1 {
-            font-weight: normal;
-        }
-        div.header svg {
-            margin-right: 60px;
-            display: flex;
-            align-items: center;
-        }
-        div.header div.menuBar {
-            padding: 20px;
-            border: 2px #E3120B;
-            border-style: solid none solid none;
-            display: flex;
-            align-items: center;
-        }
-        div.header {
-            margin: 60px 100px 60px 100px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        div.header div.headerLT {
-            display: flex;
-            align-items: center;
-        }
-        h2 {
-            text-align: center;
-            font-weight: lighter;
-        }
-        textarea {
-            width: 60vw;
-            height: 300px;
-            padding: 10px;
-            max-width: 800px;
-            font-size: 15px;
-            border: none;
-            resize: none;
+            overflow-x: hidden;
         }
 
         a {
             text-decoration: none;
             color: black;
         }
-        div.menuBar p:hover {
-            color: #E3120B;
-            cursor: pointer;
+
+        h2 {
+            text-align: center;
+            font-weight: lighter;
         }
 
-        div.detailMenu {
-            display: none;
-            font-weight: lighter;
-            font-size: 16px;
-            text-align: left;
-            position: absolute;
-            background-color: #EBEDFA;
-            padding: 10px;
-            top: 250%;
-            left: 0;
-            z-index: 1;
-            white-space: nowrap;
+        /* Header Styles */
+        .header {
+            margin: 60px 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
-        div.menuBar div.details {
-            position: relative;
+
+        .header .headerLT {
+            display: flex;
+            align-items: center;
         }
-        div.menuBar div.details:hover div.detailMenu {
-            display: block;
+
+        .header svg {
+            margin-right: 60px;
         }
-        div.detailMenu p {
-            margin: 10px 0;
-            display: block;
+
+        .header h1 {
+            font-weight: normal;
         }
-        div.detailContent {
-            margin: auto;
-            margin-top: 60px;
+
+        /* Menu Bar Styles */
+        .menuBar {
+            padding: 20px 0;
+            border: 2px #E3120B;
+            border-style: solid none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: auto;
+            min-width: 300px; /* Adjust this value as needed */
+        }
+
+
+
+        .menuBar p {
+            cursor: pointer;
+            display: inline;
+            margin: 20px;
+        }
+
+        .menuBar p:hover {
+            color: #E3120B;
+        }
+
+        /* Content Styles */
+        .detailContent {
+            margin: 60px auto;
             width: 60vw;
             max-width: 800px;
-
         }
-        div.detailContent p {
+
+        .detailContent p {
             font-size: 16px;
             line-height: 2;
-            margin-top: 60px;
-            margin-bottom: 60px;
+            margin: 60px 0;
         }
 
+        footer {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+            bottom: 0;
+            position: relative;
+            width: 100vw;
+        }
+
+        footer .links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        footer .links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        footer .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer h4 {
+            margin: 10px 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+        .copyright {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -114,25 +138,33 @@
 
     <div class="menuBar">
         <a href="#about"><p>about</p></a>
-        <div class="details">details
-            <div class="detailMenu">
-                <p>Ethnic and Racial Groups</p>
-                <p>Fewer than and Less than</p>
-                <p>Gender and Sex</p>
-                <p>Islam, Islamism, jihadist, mujahideen</p>
-                <p>Singular or Plural</p>
-                <p>The</p>
-                <p>Transitive and Intransitive verbs</p>
-            </div>
-        </div>
+        <a href="/"><p>home</p></a>
         <a href="#github"><p>github</p></a>
     </div>
 </div>
+
+
 
 <div class="detailContent">
     <h2>transitive and intransitive verbs</h2>
     <p>Some verbs are intransitive (with no direct object, as in <em>She slept</em>) and others are transitive (taking a direct object, as in<em> He saw her</em>). Some can be both (as in <em>They ate</em> or <em>They ate dinner</em>).<br />Some transitive verbs drift towards intransitive use, which can be faddish. Avoid the usages on the left in favour of those on the right:<br /><em>He committed to doing better He committed himself to doing better</em><br /><em>The stocks depleted by half The stocks were depleted by half</em><br /><em>He delivers He delivers what he promises</em><br /><em>Bonuses reduced this year The board reduced bonuses this year</em><br /><em>The growth rate halved The growth rate fell by half</em><br /><br />On the other hand, some verbs should not be used transitively. They should either take a preposition or be replaced with another verb.<br /><em>They agreed a new deal They agreed on a new deal</em><br /><em>The snow collapsed the roof The roof collapsed under the snow</em><br /><em>We want to grow the business We want to make the business grow</em><br /><em>Students are protesting the cuts Students are protesting against the&nbsp;</em><em>cuts</em><br /><em>He appealed the ruling He appealed against the ruling</em><br /><em>The speaker progressed the bill The speaker advanced the bill</em><br /><em>Wage growth has lagged inflation Wage growth has lagged behind&nbsp;</em><em>inflation</em><br /><em>Reserves totalled 10bn barrels Reserves amounted to 10bn barrels</em><br /><em>The passengers disembarked the&nbsp;</em><em>plane&nbsp;</em><em>The crew disembarked the passengers</em><br /><em>The government targeted aid at the&nbsp;</em><em>poor&nbsp;</em><em>The government directed aid to the&nbsp;</em><em>poor</em></p>
 </div>
 
+
+<footer>
+    <div class="links">
+        <a href="/"><p>Home</p></a>
+        <a href="/ethnic-and-racial-groups"><p>Ethnic and Racial Groups</p></a>
+        <a href="/fewer-than-less-than"><p>Fewer than and Less than</p></a>
+        <a href="/gender-and-sex"><p>Gender and Sex</p></a>
+        <a href="/islam-islamism-jihadist-mujahideen"><p>Islam, Islamism, jihadist, mujahideen</p></a>
+        <a href="/singular-or-plural"><p>Singular or Plural</p></a>
+        <a href="/the"><p>The</p></a>
+        <a href="/transitive-and-intransitive-verbs"><p>Transitive and Intransitive verbs</p></a>
+    </div>
+    <h4>Book citation:</h4>
+    <p>Greene, Lane. <em>Writing With Style: The Economist Guide</em>. Economist Books, 2023.</p>
+    <p class="copyright">© 2024 Digital Style Guide</p>
+</footer>
 </body>
 </html>

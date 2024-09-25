@@ -6,102 +6,126 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <style>
+        /* General Styles */
         body {
             font-family: 'Fira Sans', sans-serif;
             font-weight: normal;
             margin: 0;
             padding: 0;
-        }
-        div.menuBar p {
-            display: inline;
-            margin: 0 30px 0 30px;
-        }
-        div.header h1 {
-            font-weight: normal;
-        }
-        div.header svg {
-            margin-right: 60px;
-            display: flex;
-            align-items: center;
-        }
-        div.header div.menuBar {
-            padding: 20px;
-            border: 2px #E3120B;
-            border-style: solid none solid none;
-            display: flex;
-            align-items: center;
-        }
-        div.header {
-            margin: 60px 100px 60px 100px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        div.header div.headerLT {
-            display: flex;
-            align-items: center;
-        }
-        h2 {
-            text-align: center;
-            font-weight: lighter;
-        }
-        textarea {
-            width: 60vw;
-            height: 300px;
-            padding: 10px;
-            max-width: 800px;
-            font-size: 15px;
-            border: none;
-            resize: none;
+            overflow-x: hidden;
         }
 
         a {
             text-decoration: none;
             color: black;
         }
-        div.menuBar p:hover {
-            color: #E3120B;
-            cursor: pointer;
+
+        h2 {
+            text-align: center;
+            font-weight: lighter;
         }
 
-        div.detailMenu {
-            display: none;
-            font-weight: lighter;
-            font-size: 16px;
-            text-align: left;
-            position: absolute;
-            background-color: #EBEDFA;
-            padding: 10px;
-            top: 250%;
-            left: 0;
-            z-index: 1;
-            white-space: nowrap;
+        /* Header Styles */
+        .header {
+            margin: 60px 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
-        div.menuBar div.details {
-            position: relative;
+
+        .header .headerLT {
+            display: flex;
+            align-items: center;
         }
-        div.menuBar div.details:hover div.detailMenu {
-            display: block;
+
+        .header svg {
+            margin-right: 60px;
         }
-        div.detailMenu p {
-            margin: 10px 0;
-            display: block;
+
+        .header h1 {
+            font-weight: normal;
         }
-        div.detailContent {
-            margin: auto;
-            margin-top: 60px;
+
+        /* Menu Bar Styles */
+        .menuBar {
+            padding: 20px 0;
+            border: 2px #E3120B;
+            border-style: solid none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: auto;
+            min-width: 300px; /* Adjust this value as needed */
+        }
+
+
+
+        .menuBar p {
+            cursor: pointer;
+            display: inline;
+            margin: 20px;
+        }
+
+        .menuBar p:hover {
+            color: #E3120B;
+        }
+
+        /* Content Styles */
+        .detailContent {
+            margin: 60px auto;
             width: 60vw;
             max-width: 800px;
-
         }
-        div.detailContent p {
+
+        .detailContent p {
             font-size: 16px;
             line-height: 2;
-            margin-top: 60px;
-            margin-bottom: 60px;
+            margin: 60px 0;
         }
 
+        footer {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+            bottom: 0;
+            position: relative;
+            width: 100vw;
+        }
+
+        footer .links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        footer .links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        footer .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer h4 {
+            margin: 10px 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+        .copyright {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -113,19 +137,9 @@
     </div>
 
     <div class="menuBar">
-        <a href="#about"><p>about</p></a>
-        <div class="details">details
-            <div class="detailMenu">
-                <p>Ethnic and Racial Groups</p>
-                <p>Fewer than and Less than</p>
-                <p>Gender and Sex</p>
-                <p>Islam, Islamism, jihadist, mujahideen</p>
-                <p>Singular or Plural</p>
-                <p>The</p>
-                <p>Transitive and Intransitive verbs</p>
-            </div>
-        </div>
-        <a href="#github"><p>github</p></a>
+        <a href="/#about"><p>about</p></a>
+        <a href="/"><p>home</p></a>
+        <a href="/#github"><p>github</p></a>
     </div>
 </div>
 
@@ -133,6 +147,22 @@
     <h2>Islam, Islamism, jihadist, mujahideen</h2>
     <p><em>Islamic</em> means relating to <em>Islam</em>; it is a synonym of the adjective Muslim and is best used in the context of religion. Use <em>Islamist</em> rather than&nbsp;<em>Islamic</em> when referring to a political ideology that purports to be based on <em>Islam</em>. Do not refer to Iran as the <em>Islamic Republic</em>. <em>Afghanistan,&nbsp;</em><em>Mauritania </em>and<em> Pakistan</em> are also Islamic republics; many other countries make reference to Islam in their constitutions. <br /><em>Islamism</em> encompasses a wide range of views&mdash;from the constitutionalist Justice and Development Party in power in Morocco, to Egypt&rsquo;s ousted Muslim Brotherhood, the Hamas movement in Gaza, al-Qaeda and the gore-loving Islamic State. At the moderate end of the spectrum you can talk of <em>political</em> or <em>moderate Islamists</em>. (Members of Tunisia&rsquo;s Ennahda now want to call themselves <em>Muslim democrats</em>.) At the more extreme end you can talk of <em>radical</em>, <em>militant</em> or even <em>violent&nbsp;</em><em>Islamists</em>. For those who exalt violent jihad as a core belief, eg, al-Qaeda, call them <em>jihadists</em> (see details below). <br /> Avoid referring to <em>Islamic State</em> with the definite article. Its ideology is an outlier in the world of Islam. You may, if you want, qualify its title in some way, eg, <em>the jihadists of Islamic State</em> or <em>the Islamic State group</em>. Similarly, qualify the short-lived entity it created in Iraq and Syria in 2014 as a &ldquo;<em>caliphate</em>&rdquo; (inverted commas needed) or <em>would-be caliphate</em>. <br /><em>Jihad</em> is the Arabic word for <em>striving</em>. For modern Muslims, it may mean <em>military war to propagate Islamism</em>, ie, to spread Islam as a religious, political and social ideology (<em>jihad</em> of the sword). Or it may mean <em>spiritual struggle</em> for personal purification and moral betterment (<em>jihad</em> against oneself). Or it may merely mean <em>doing right</em>, improving society and being virtuous (<em>jihad</em> of the tongue or of the hand). A religious obligation for all Muslims, <em>jihad</em> is for most a non-violent duty. Do not therefore use it simply to mean <em>holy war</em>. Rather make clear what sort of <em>jihad</em> is under discussion in the context. <br /> Someone engaged in <em>jihad</em> is a <em>mujahid</em> (plural, <em>mujahideen</em>) or a&nbsp;<em>jihadist</em> (prefer to <em>jihadi</em>). In practice, these terms nowadays are always used of Muslims engaged in an <em>armed struggle</em>, though <em>mujahideen</em> may simply be Muslim<em> militants fighting for a cause</em> whereas <em>jihadists</em> are always <em>fighting to spread Islamism by force</em>.</p>
 </div>
+
+<footer>
+    <div class="links">
+        <a href="/"><p>Home</p></a>
+        <a href="/ethnic-and-racial-groups"><p>Ethnic and Racial Groups</p></a>
+        <a href="/fewer-than-less-than"><p>Fewer than and Less than</p></a>
+        <a href="/gender-and-sex"><p>Gender and Sex</p></a>
+        <a href="/islam-islamism-jihadist-mujahideen"><p>Islam, Islamism, jihadist, mujahideen</p></a>
+        <a href="/singular-or-plural"><p>Singular or Plural</p></a>
+        <a href="/the"><p>The</p></a>
+        <a href="/transitive-and-intransitive-verbs"><p>Transitive and Intransitive verbs</p></a>
+    </div>
+    <h4>Book citation:</h4>
+    <p>Greene, Lane. <em>Writing With Style: The Economist Guide</em>. Economist Books, 2023.</p>
+    <p class="copyright">© 2024 Digital Style Guide</p>
+</footer>
 
 </body>
 </html>
