@@ -1,1 +1,1 @@
-web: gunicorn --worker-class eventlet -w 1 app:appgit push heroku main
+web: gunicorn --worker-class eventlet -w 1 app:app
